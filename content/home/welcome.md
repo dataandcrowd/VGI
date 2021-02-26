@@ -17,6 +17,6 @@ advanced:
   css_class:
 ---
 
-A Branch from the Geographic Data Science Lab - Uni.of Glasgow
+A Branch from the [Geographic Data Science Lab](https://indicative-data-science.github.io/IDS/index.html), University of Glasgow
 
 <!-- figure credits: Nathan Kit Kennedy, CC0, via Wikimedia Commons-->

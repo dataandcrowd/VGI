@@ -1,46 +1,35 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
-education:
-  courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+bio: My research interests include urban simulation, agent-based modelling, and crowdsourcing.
+education: #
 email: ""
 highlight_name: false
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Urban simulation
+- Agent-based modelling
+- Crowdsourcing
 organizations:
-- name: Stanford University
+- name: University of Glasgow
   url: ""
-role: Professor of Artificial Intelligence
+role: Research Associate in Geographic Crowdsourcing 
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:test@example.org
+  link: mailto:hyesop.shin@glasgow.ac.uk
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/hyesop
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=VWTK1kAAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/mrsensible
 superuser: true
-title: Nelson Bighetti
+title: Hyesop Shin
 user_groups:
 - Researchers
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hyesop is a quantitative geographer interested in themes including environmental hazards, urban air quality, individual mobility patterns, which are likely to be real-world problems. To tackle these issues, Hyesop apply methods including GIScience and agent-based modelling (ABM). Prior to joining Glasgow, I completed my PhD at the University of Cambridge where I looked at how  individuals exposure to air pollution can differ by commuting routes and socioeconomic backgrounds using an agent-based simulation. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+At Glasgow, his current project unravels the benefits of using crowdsourcing to help improve our understanding of locational services for the  under-represented groups. One example is to highlight toilets, childcare service, domestic violence shelters for women, and provide wheelchair service points and pathfinding routes for the physically disabled.
