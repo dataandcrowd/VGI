@@ -18,7 +18,7 @@ social:
   link: mailto:ana.basiri@glasgow.ac.uk
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/AnahidBasiri
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=Mxy2wXcAAAAJ&hl=en
