@@ -1,0 +1,76 @@
+---
+title: "How I am structuring my review paper"
+subtitle: ": Towards a Systematic Review"  
+author: "Hyesop Shin"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_dark(base_color = "#cbf7ed")
+```
+
+class: inverse, top, left
+
+Temporary Title
+
+<br><br>
+
+# Factors Negatively affecting the Participation of Geographic Crowdsourcing Projects: a Systematic Review
+
+
+---
+
+# Motivation
+
+-  Why do we see biases in participatory mapping projects?
+ 
+- If so, what are the main factors associated with the bias?
+
+---
+
+# Motivation for a Systematic Review
+
+
+- Several papers have investigated possible factors that hinder the participation in crowdsourced mapping in their VGI projects
+
+- Most empirical studies have extensive questions which can be less generalisable
+
+- To our knowledge, none of the published reviews identified or analysed the available evidence from a strict systematic approach
+
+---
+
+# Advantages of a Systematic Review
+- To improve decision that are maximally informed and minimally biased
+- The transparency of the selection criteria is a safe bet with academic markers and journal peer reviewers ⇒ “how and why were the studies included or excluded?”
+- Far less stressful and far more manageable
+
+
+---
+
+# Research Objective and Questions
+
+### Objective
+- To review and analyse the main factors that underlie a major barrier for Public VGI projects
+
+### Research Questions
+- What factors are associated with the under-represent of participation in VGI projects?
+- Are there other non-demographic factors that can hinder VGI projects which are not revealed yet?
+
+
+---
+
+# A PRISMA Guideline
+

@@ -8,8 +8,8 @@ categories:
 tags:
   - VGI
   - Mindmap
-subtitle: 'Here is a list of factors that lead to a successful VGI project drawn on a Mindmap canvas.'
-summary: '**Note that this is work is unfinished**'
+subtitle: 'Here is a list of factors that lead to a successful VGI project drawn on a Mindmap canvas. (Unfinished work)'
+summary: 
 authors: []
 lastmod: '2021-02-27T07:26:59Z'
 featured: no
@@ -20,9 +20,7 @@ image:
 projects: []
 ---
 
-<script src="{{< blogdown/postref >}}index.en_files/htmlwidgets/htmlwidgets.js"></script>
-<script src="{{< blogdown/postref >}}index.en_files/d3/d3.min.js"></script>
-<script src="{{< blogdown/postref >}}index.en_files/forceNetwork-binding/forceNetwork.js"></script>
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
 
 
 <div id="why-are-we-investigating" class="section level2">
@@ -38,11 +36,9 @@ projects: []
 <li><a href="https://vgi.netlify.app/posts/2020-12-11-mindmap/#engaging-with-participants">Engagement with Participants</a></li>
 <li><a href="https://vgi.netlify.app/posts/2020-12-11-mindmap/#sustainability">Sustainability</a></li>
 </ol>
-<div class="figure"><span id="fig:pressure"></span>
-<img src="VGI%20Success%20Factors.svg" alt="Mindmap of the elements that can lead to a successful VGI project" width="150%" />
-<p class="caption">
-Figure 1: Mindmap of the elements that can lead to a successful VGI project
-</p>
+<div class="figure">
+<img src="VGI%20Success%20Factors.svg" alt="" />
+<p class="caption">Mindmap of the elements that can lead to a successful VGI project</p>
 </div>
 </div>
 <div id="organisation" class="section level2">
@@ -82,7 +78,7 @@ Figure 1: Mindmap of the elements that can lead to a successful VGI project
 <li>Gender equality is imperative to get balanced information from the crowd</li>
 <li>However, gender inequalities (bias) has been an issue since crowdsourcing ever happened because most active contributors need enough knowledge and time to get involved</li>
 <li>A survey questionnaire asked people in the OSM mailing list to answer possible barriers for OSM contribution (Gardner et al., 2020). Is was not surprising to see a gender inequality from the active contributors where 96% of 215 participants were male. - <strong>‘Digital divides’</strong>.</li>
-<li>Nicolosi et al. (2020): Digital inequality from the internet usage. Male are predominantly contributing data. While less difference is noticed between urban (83%) and suburban areas (78%), a huge contrast of participation has been noticed between high and low incomed countries.</li>
+<li>Nicolosi et al. (2020): Digital inequality from the internet usage. Male are predominantly contributing data. While less difference is noticed between urban (83%) and suburban areas (78%), a huge contrast of participation has been noticed between high and low incomed countries.</li>
 <li>Haklay (2013): Citizen science is a serious leisure activity and most likely participants will join with some existing interest in the subject and keen to learn more. Male, well educated, and from high brackets of income scale. Thus, we expect to observe participation inequality with some participants contributing a lot while many others contribute a little.</li>
 </ul>
 </div>
@@ -168,40 +164,4 @@ Figure 1: Mindmap of the elements that can lead to a successful VGI project
 </div>
 <div id="visualising-art-testing" class="section level2">
 <h2>Visualising Art (Testing)</h2>
-<pre class="r"><code># Libraries
-library(igraph)</code></pre>
-<pre><code>## 
-## Attaching package: &#39;igraph&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:stats&#39;:
-## 
-##     decompose, spectrum</code></pre>
-<pre><code>## The following object is masked from &#39;package:base&#39;:
-## 
-##     union</code></pre>
-<pre class="r"><code>library(networkD3)
-
-# create a dataset:
-data &lt;- read.csv(&quot;VGI Success Factors.csv&quot;, header = TRUE)
-
-
-# Plot
-p &lt;- simpleNetwork(data, height=&quot;100px&quot;, width=&quot;100px&quot;,
-        Source = 1,                 # column number of source
-        Target = 2,                 # column number of target
-        linkDistance = 50,          # distance between node. Increase this value to have more space between nodes
-        charge = -900,                # numeric value indicating either the strength of the node repulsion (negative value) or attraction (positive value)
-        fontSize = 20,               # size of the node names
-        fontFamily = &quot;serif&quot;,       # font og node names
-        linkColour = &quot;#666&quot;,        # colour of edges, MUST be a common colour for the whole graph
-        nodeColour = &quot;#69b3a2&quot;,     # colour of nodes, MUST be a common colour for the whole graph
-        opacity = 0.9,              # opacity of nodes. 0=transparent. 1=no transparency
-        zoom = T                    # Can you zoom on the figure?
-        )
-
-p</code></pre>
-<div id="htmlwidget-1" style="width:672px;height:480px;" class="forceNetwork html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"links":{"source":[26,26,26,26,26,26,26,16,17,8,18,14,4,20,2,25,22,7,24,0,9,10,5,11,19,12,6,21,15,13,1,3,23],"target":[16,17,8,18,14,4,20,26,26,26,26,26,26,26,17,17,17,17,8,8,8,14,14,14,14,4,4,4,20,20,18,18,18],"value":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"colour":["#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666","#666"]},"nodes":{"name":["API","Codes","Data","Documentation","Engagement with Participants","Extrinsic","Gamification","Gender Inequality","Good Accessibility","Internet Connection","Intrinsic","Learning","Listening to Feedback","Long-term","Motivations","One-off","Organisation","Quality of Contribution","Reproducibility","Social","Sustainability","Technical Aid","Time-consuming Effort","Tutorial","UX/UI","Validation","VGI Success Factors"],"group":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"nodesize":[8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8]},"options":{"NodeID":"name","Group":"group","colourScale":"d3.scaleOrdinal(['#69b3a2'])","fontSize":20,"fontFamily":"serif","clickTextSize":50,"linkDistance":50,"linkWidth":"'1.5px'.toString()","charge":-900,"opacity":0.9,"zoom":true,"legend":false,"arrows":false,"nodesize":true,"radiusCalculation":"d.nodesize","bounded":false,"opacityNoHover":1,"clickAction":null}},"evals":[],"jsHooks":[]}</script>
-<pre class="r"><code># save the widget
-# library(htmlwidgets)
-# saveWidget(p, file=paste0( getwd(), &quot;/HtmlWidget/networkInteractive2.html&quot;))</code></pre>
 </div>
