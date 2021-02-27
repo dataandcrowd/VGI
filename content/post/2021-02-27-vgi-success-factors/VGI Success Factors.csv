@@ -1,0 +1,34 @@
+﻿From,To
+VGI Success Factors,Organisation
+VGI Success Factors,Quality of Contribution
+VGI Success Factors,Good Accessibility
+VGI Success Factors,Reproducibility
+VGI Success Factors,Motivations
+VGI Success Factors,Engagement with Participants
+VGI Success Factors,Sustainability
+Organisation,VGI Success Factors
+Quality of Contribution,VGI Success Factors
+Good Accessibility,VGI Success Factors
+Reproducibility,VGI Success Factors
+Motivations,VGI Success Factors
+Engagement with Participants,VGI Success Factors
+Sustainability,VGI Success Factors
+Data,Quality of Contribution
+Validation,Quality of Contribution
+Time-consuming Effort,Quality of Contribution
+Gender Inequality,Quality of Contribution
+UX/UI,Good Accessibility
+API,Good Accessibility
+Internet Connection,Good Accessibility
+Intrinsic,Motivations
+Extrinsic,Motivations
+Learning,Motivations
+Social,Motivations
+Listening to Feedback,Engagement with Participants
+Gamification,Engagement with Participants
+Technical Aid,Engagement with Participants
+One-off,Sustainability
+Long-term,Sustainability
+Codes,Reproducibility
+Documentation,Reproducibility
+Tutorial,Reproducibility
