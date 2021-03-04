@@ -25,20 +25,20 @@ We all know that crowdsourcing is a powerful tool for geospatial mapping, partic
 
 However, not all VGI project turn out to be successful. We discovered there are various reasons that one project can succeed or fail and these are subject to the aim and the structure of the project. We thought that it is good, as a starting point, to brainstorm many ideas and list them into a structure. Here, we list 7 elements that lead to a successful VGI project (See an overview in the figure below).
 
-1. [Organisation](https://vgi.netlify.app/posts/2020-12-11-mindmap/#organisation)
-2. [Quality of Contribution](https://vgi.netlify.app/posts/2020-12-11-mindmap/#quality-of-contribution)
-3. [Good Accessibility](https://vgi.netlify.app/posts/2020-12-11-mindmap/#good-accessibility)
-4. [Motivation](https://vgi.netlify.app/posts/2020-12-11-mindmap/#motivation)
-5. [Reproducibility](https://vgi.netlify.app/posts/2020-12-11-mindmap/#reproducibility)
-6. [Engagement with Participants](https://vgi.netlify.app/posts/2020-12-11-mindmap/#engaging-with-participants)
-7. [Sustainability](https://vgi.netlify.app/posts/2020-12-11-mindmap/#sustainability)
+1. [Organisation](#organisation)
+2. [Quality of Contribution](#quality-of-contribution)
+3. [Good Accessibility](#good-accessibility)
+4. [Motivation](#motivation)
+5. [Reproducibility](#reproducibility)
+6. [Engagement with Participants](#engaging-with-participants)
+7. [Sustainability](#sustainability)
 
 
 ![Mindmap of the elements that can lead to a successful VGI project](VGI Success Factors.svg)
 
 
 ## 1. Organisation
-[back to the top](https://vgi.netlify.app/posts/2020-12-11-mindmap/#why-are-we-investigating)
+[back to the top](#why-are-we-investigating)
 
 * Good vision
 * Define desired results
@@ -47,7 +47,7 @@ However, not all VGI project turn out to be successful. We discovered there are 
 
 
 ## 2. Quality of Contribution
-[back to the top](https://vgi.netlify.app/posts/2020-12-11-mindmap/#why-are-we-investigating)
+[back to the top](#why-are-we-investigating)
 
 ### 2.1. Data Quality
 * Data Quality (Basiri et al., 2019): Having a better understanding of the quality of VGI may help the adoption of crowdsourced geospatial data in some projects as the perception of unreliability may impede the adoption.
@@ -81,7 +81,7 @@ However, not all VGI project turn out to be successful. We discovered there are 
 
 
 ## 3. Good Accessibility
-[back to the top](https://vgi.netlify.app/posts/2020-12-11-mindmap/#why-are-we-investigating)
+[back to the top](#why-are-we-investigating)
 
 ### 3.1. Internet (APIs and Web sockets) 
 
@@ -95,7 +95,7 @@ However, not all VGI project turn out to be successful. We discovered there are 
     * Additionally, we can only see a density map of noise pollution but not able to see the meatadata. Worse fact is that despite the project aimed to keep this platform for a longer-term goal, the lack of contribution has caused an ephemeral event, which they pointed out for the rationale of their study. 
 
 ## 4. Motivation
-[back to the top](https://vgi.netlify.app/posts/2020-12-11-mindmap/#why-are-we-investigating)
+[back to the top](#why-are-we-investigating)
 
 ### 4.1. Intrinsic
 ### 4.2. Extrinsic
@@ -106,14 +106,14 @@ However, not all VGI project turn out to be successful. We discovered there are 
 
 
 ## 5. Reproducibility
-[back to the top](https://vgi.netlify.app/posts/2020-12-11-mindmap/#why-are-we-investigating)
+[back to the top](#why-are-we-investigating)
 
 * Open source software is a prime example of collaboration amongst otherwise unrelated programmers who aim to create software that is freely accessible by anyone. 
 * More importantly, the code used to create the software is also shared so that anyone can see, examine, reuse or improve it. This collaborative approach also started to grow in the geomatics domain, but, whereas in software development the purpose was to work together to create an application, here, the mentality was mostly oriented towards collaboration in order to solve a common problem.
 
 
 ## 6. Engaging with Participants
-[back to the top](https://vgi.netlify.app/posts/2020-12-11-mindmap/#why-are-we-investigating)
+[back to the top](#why-are-we-investigating)
 
 * Gamification
 * Giving/Receiving Feebacks
@@ -121,7 +121,7 @@ However, not all VGI project turn out to be successful. We discovered there are 
 
 
 ## 7. Sustainability
-[back to the top](https://vgi.netlify.app/posts/2020-12-11-mindmap/#why-are-we-investigating)
+[back to the top](#why-are-we-investigating)
 
 * One-off
 * long-term
