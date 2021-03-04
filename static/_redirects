@@ -1,1 +1,3 @@
-http://vgi.rbind.io/*    https://vgi.rbind.io/:splat  301!
+http://vgi.rbind.io/*      https://vgi.rbind.io/:splat  301!
+https://vgi.netlify.app/*  https://vgi.rbind.io/:splat  301!
+http://vgi.netlify.app/*   https://vgi.rbind.io/:splat  301!
