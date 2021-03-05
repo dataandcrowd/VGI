@@ -1,8 +1,10 @@
 # Welcome to the Volunteered Geographic Information (VGI) Blog!
 
-Thanks for visiting our repository :bowtie:. You are most likely welcome to visit our website described on the top right link :arrow_upper_right:.
+Thanks for visiting our repository :bowtie:. 
 
 This blog is mainly contributed by the [Geographic Data Science Lab members](https://vgi.rbind.io/people/) at the University of Glasgow :umbrella:.
+
+You are most likely welcome to visit our website described on the top right link :arrow_upper_right:.
 
 If you are new to VGI, please have a read through our webpage [link here](https://vgi.rbind.io/). <br>
 If you have knowledge about VGI and want to know more about our activities, please stay tuned to our new blog posts. 
