@@ -16,4 +16,4 @@ weight: 10
 widget: contact
 ---
 
-Should you have any enquiries, please drop us a message!
+If you have any enquiries, please drop us a message!
