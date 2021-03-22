@@ -1,0 +1,193 @@
+---
+title: Can You Analyse Your Literature Review Results Inside an R package?
+author: Hyesop Shin
+date: '2021-03-22'
+slug: your-review-results-inside-an-r-package
+categories:
+  - VGI
+tags:
+  - VGI
+  - Review
+  - R
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-03-22T15:49:54Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="tldr" class="section level2">
+<h2>tl;dr</h2>
+<ul>
+<li>We will do a bunch of analysis from the search database</li>
+<li>The papers are retrieved from <a href="https://www.scopus.com/search/form.uri?display=basic#basic"><strong>SCOPUS</strong></a></li>
+<li>Published papers written in English were exported to a <code>.bib</code> file</li>
+<li>We used an R package “bibliometrix” (<a href="https://www.bibliometrix.org/index.html">URL</a>) to explore the results</li>
+</ul>
+</div>
+<div id="intro" class="section level2">
+<h2>Intro</h2>
+<ul>
+<li>Search Keyword</li>
+<li>Search Year</li>
+</ul>
+</div>
+<div id="download-in-scopus" class="section level2">
+<h2>Download in SCOPUS</h2>
+</div>
+<div id="load-library" class="section level2">
+<h2>Load Library</h2>
+</div>
+<div id="section" class="section level2">
+<h2></h2>
+<pre><code>## 
+## 
+## MAIN INFORMATION ABOUT DATA
+## 
+##  Timespan                              2003 : 2021 
+##  Sources (Journals, Books, etc)        395 
+##  Documents                             1257 
+##  Average years from publication        5.22 
+##  Average citations per documents       0 
+##  Average citations per year per doc    0 
+##  References                            1 
+##  
+## DOCUMENT CONTENTS
+##  Keywords Plus (ID)                    0 
+##  Author&#39;s Keywords (DE)                4497 
+##  
+## AUTHORS
+##  Authors                               2451 
+##  Author Appearances                    4008 
+##  Authors of single-authored documents  136 
+##  Authors of multi-authored documents   2315 
+##  
+## AUTHORS COLLABORATION
+##  Single-authored documents             217 
+##  Documents per Author                  0.513 
+##  Authors per Document                  1.95 
+##  Co-Authors per Documents              3.19 
+##  Collaboration Index                   2.23 
+##  
+## 
+## Annual Scientific Production
+## 
+##  Year    Articles
+##     2003        1
+##     2007        2
+##     2008       11
+##     2009        9
+##     2010       41
+##     2011       45
+##     2012       69
+##     2013      123
+##     2014       95
+##     2015      157
+##     2016      138
+##     2017      149
+##     2018      168
+##     2019      129
+##     2020      101
+##     2021       19
+## 
+## Annual Percentage Growth Rate 17.77195 
+## 
+## 
+## Most Productive Authors
+## 
+##       Authors        Articles    Authors        Articles Fractionalized
+## 1  ZIPF A                  54 NA NA                               43.00
+## 2  NA NA                   43 ZIPF A                              16.44
+## 3  MOONEY P                24 MOONEY P                             8.93
+## 4  SEE L                   24 ELWOOD S                             7.33
+## 5  DE ALBUQUERQUE JP       23 LIN W                                7.00
+## 6  FAN H                   15 DE ALBUQUERQUE JP                    6.26
+## 7  JANOWICZ K              15 TOEPKE SL                            6.00
+## 8  FONTE CC                13 BALLATORE A                          5.58
+## 9  FRITZ S                 13 FOODY GM                             5.18
+## 10 BALLATORE A             12 GOODCHILD MF                         5.08
+## 
+## 
+## Top manuscripts per citations
+## 
+##             Paper                                      DOI TC TCperYear NTC
+## 1  TELES DA MOTA V, 2021,  10.1016/j.ocecoaman.2021.105519  0         0 NaN
+## 2  BALDUCCI F, 2021,       10.1177/2399808319876949         0         0 NaN
+## 3  TEMPELMEIER N, 2021,    10.1016/j.future.2020.11.003     0         0 NaN
+## 4  WU F, 2021,             10.3390/s21041165                0         0 NaN
+## 5  ZHOU Y, 2021,           10.1111/tgis.12690               0         0 NaN
+## 6  KLONNER C, 2021,        10.1007/s13753-020-00312-8       0         0 NaN
+## 7  MIAO R, 2021,           10.3390/su13020647               0         0 NaN
+## 8  HOWE LB, 2021,          10.1177/0042098020982251         0         0 NaN
+## 9  GRACE R, 2021,          10.1016/j.ijdrr.2020.101923      0         0 NaN
+## 10 WANG C, 2021,           10.1080/17538947.2020.1808721    0         0 NaN
+## 
+## 
+## Corresponding Author&#39;s Countries
+## 
+##           Country Articles   Freq SCP MCP MCP_Ratio
+## 1  USA                 200 0.1857 200   0    0.0000
+## 2  GERMANY             151 0.1402 151   0    0.0000
+## 3  CHINA                94 0.0873  93   1    0.0106
+## 4  CANADA               66 0.0613  66   0    0.0000
+## 5  ITALY                64 0.0594  63   1    0.0156
+## 6  UNITED KINGDOM       57 0.0529  57   0    0.0000
+## 7  BRAZIL               51 0.0474  51   0    0.0000
+## 8  AUSTRALIA            50 0.0464  50   0    0.0000
+## 9  AUSTRIA              44 0.0409  43   1    0.0227
+## 10 IRELAND              29 0.0269  29   0    0.0000
+## 
+## 
+## SCP: Single Country Publications
+## 
+## MCP: Multiple Country Publications
+## 
+## 
+## Total Citations per Country
+## 
+##      Country      Total Citations Average Article Citations
+## 1  AUSTRALIA                    0                         0
+## 2  AUSTRIA                      0                         0
+## 3  BELGIUM                      0                         0
+## 4  BOTSWANA                     0                         0
+## 5  BRAZIL                       0                         0
+## 6  CANADA                       0                         0
+## 7  CHILE                        0                         0
+## 8  CHINA                        0                         0
+## 9  CROATIA                      0                         0
+## 10 CUBA                         0                         0
+## 
+## 
+## Most Relevant Sources
+## 
+##                                                                                                                          Sources       
+## 1  ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION                                                                                      
+## 2  LECTURE NOTES IN COMPUTER SCIENCE (INCLUDING SUBSERIES LECTURE NOTES IN ARTIFICIAL INTELLIGENCE AND LECTURE NOTES IN BIOINFORMATICS)
+## 3  INTERNATIONAL ARCHIVES OF THE PHOTOGRAMMETRY REMOTE SENSING AND SPATIAL INFORMATION SCIENCES - ISPRS ARCHIVES                       
+## 4  INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SCIENCE                                                                           
+## 5  LECTURE NOTES IN GEOINFORMATION AND CARTOGRAPHY                                                                                     
+## 6  TRANSACTIONS IN GIS                                                                                                                 
+## 7  GEOJOURNAL                                                                                                                          
+## 8  CEUR WORKSHOP PROCEEDINGS                                                                                                           
+## 9  CROWDSOURCING GEOGRAPHIC KNOWLEDGE: VOLUNTEERED GEOGRAPHIC INFORMATION (VGI) IN THEORY AND PRACTICE                                 
+## 10 APPLIED GEOGRAPHY                                                                                                                   
+##    Articles
+## 1        86
+## 2        69
+## 3        57
+## 4        40
+## 5        40
+## 6        32
+## 7        31
+## 8        24
+## 9        20
+## 10       18</code></pre>
+</div>

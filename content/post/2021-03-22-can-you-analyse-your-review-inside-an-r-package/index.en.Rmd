@@ -1,0 +1,80 @@
+---
+title: Can You Analyse Your Literature Review Results Inside an R package?
+author: Hyesop Shin
+date: '2021-03-22'
+slug: your-review-results-inside-an-r-package
+categories:
+  - VGI
+tags:
+  - VGI
+  - Review
+  - R
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-03-22T15:49:54Z'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+## tl;dr
+
+- We will do a bunch of analysis from the search database
+- The papers are retrieved from [**SCOPUS**](https://www.scopus.com/search/form.uri?display=basic#basic)
+- Published papers written in English were exported to a `.bib` file
+- We used an R package "bibliometrix" ([URL](https://www.bibliometrix.org/index.html)) to explore the results
+
+```{r, echo=F}
+options(width=100)
+
+```
+
+
+
+## Intro
+- Search Keyword
+- Search Year
+
+
+## Download in SCOPUS
+
+
+## Load Library
+
+```{r, echo=F, include=F}
+library(bibliometrix)
+```
+
+
+##
+```{r, include=F}
+M <- convert2df(file = "scopus.bib", dbsource = "isi", format = "bibtex")
+results <- biblioAnalysis(M, sep = ";")
+```
+
+
+```{r, echo=F}
+S <- summary(object = results, k = 10, pause = FALSE)
+
+```
+
+```{r, include=F, eval=F}
+S[[3]]
+
+plot(x = results, k = 10, pause = T)
+
+CR <- citations(M, field = "article", sep = ";")
+cbind(CR$Cited[1:10])
+
+
+NetMatrix <- biblioNetwork(M, analysis = "co-citation", network = "references", sep = ";")
+net=networkPlot(NetMatrix, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=20, remove.multiple=FALSE, labelsize=0.7,edgesize = 10, edges.min=5)
+```
+
+
+
+
