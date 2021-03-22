@@ -47,6 +47,7 @@ options(width=100)
 
 ```{r, echo=F, include=F}
 library(bibliometrix)
+library(tidyverse)
 ```
 
 
@@ -62,18 +63,28 @@ S <- summary(object = results, k = 10, pause = FALSE)
 
 ```
 
-```{r, include=F, eval=F}
-S[[3]]
+```{r, echo=F}
 
-plot(x = results, k = 10, pause = T)
+plot(x = results, k = 10, pause = F)
 
-CR <- citations(M, field = "article", sep = ";")
-cbind(CR$Cited[1:10])
+S[[3]] -> papers
 
 
-NetMatrix <- biblioNetwork(M, analysis = "co-citation", network = "references", sep = ";")
-net=networkPlot(NetMatrix, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=20, remove.multiple=FALSE, labelsize=0.7,edgesize = 10, edges.min=5)
+papers %>%
+  rename(Year = `Year   `) %>% 
+  ggplot(aes(x=Year, y=Articles)) +
+  geom_bar(stat = "identity") +
+  theme_bw()
+  
+
+#CR <- citations(M, field = "article", sep = ";")
+#cbind(CR$Cited[1:10])
+#NetMatrix <- biblioNetwork(M, analysis = "co-citation", network = "references", sep = ";")
+#net=networkPlot(NetMatrix, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=20, remove.multiple=FALSE, labelsize=0.7,edgesize = 10, edges.min=5)
 ```
+
+
+
 
 https://bibliometrix.org/documents/bibliometrix_Report.html
 
