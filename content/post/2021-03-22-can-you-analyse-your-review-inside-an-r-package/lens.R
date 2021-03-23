@@ -16,4 +16,7 @@ lens %>%
   summarise(n = n())
 
 
+file <- "content/post/2021-03-22-can-you-analyse-your-review-inside-an-r-package/lens-export.csv"
+M <- convert2df(file, dbsource = "lens", format = "csv")
+
 
