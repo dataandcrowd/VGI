@@ -33,59 +33,167 @@ options(width=100)
 
 ```
 
+---
+title: SLR Naive Search - "Volunteered Geographic Information"
+---
+###### tags: `VGI`
+
+:::success
+**Bibliographic collection**
+<br>
+
+**Data source**:   Clarivate Analytics Web of Science (http://apps.webofknowledge.com)
+
+**Data format**:   Bibtex
+
+**Query**:         **"Volunteered Geographic Information"**
+
+**Timespan**:      2000-2021
+
+**Document Type**: Articles and book chapters
+
+**Query data**:    March 24th, 2021
+
+**Tool for Analysis**: R `bibliometrix`
+:::
 
 
-## Intro
-- Search Keyword
-- Search Year
+# 1. Descriptive Analysis
+
+Out of 417 journals/books, 402 articles were published in a peer-reviewed journal, 2 in book chapters, and the rest in other places. Around 98% of the articles were multi-authored documents.
 
 
-## Download in SCOPUS
+## Data
+* Sources (Journals, Books, etc):	127
+* **Documents:	417**
+* Average years from publication:	3.89
+* Average citations per documents:	14.5
+* Average citations per year per doc:	2.337
+* References:	15945
 
 
-## Load Library
+## Document Types
+* Article:	402
+* Book chapter:	2
+* Data paper:	5
+* Early access:	3
+* Proceedings paper:	5
 
-```{r, echo=F, include=F}
-library(bibliometrix)
-library(tidyverse)
-```
+## Document Contents
+* Authors: 1318
+    * Authors of single-authored documents: 25
+    * Authors of multi-authored documents: 1293
 
+## Author Collaboration
+* Single-authored documents:	26
+* Documents per Author:	0.316
+* Authors per Document:	3.16
+* Co-Authors per Documents:	4.06
+* Collaboration Index:	3.31
 
-##
-```{r, include=F}
-M <- convert2df(file = "scopus.bib", dbsource = "isi", format = "bibtex")
-results <- biblioAnalysis(M, sep = ";")
-```
-
-
-```{r, echo=F}
-S <- summary(object = results, k = 10, pause = FALSE)
-
-```
-
-```{r, echo=F}
-
-plot(x = results, k = 10, pause = F)
-
-S[[3]] -> papers
+## Keyword Co-occurrences
+![](https://i.imgur.com/vY1heUm.png)
 
 
-papers %>%
-  rename(Year = `Year   `) %>% 
-  ggplot(aes(x=Year, y=Articles)) +
-  geom_bar(stat = "identity") +
-  theme_bw()
-  
+<br><br>
 
-#CR <- citations(M, field = "article", sep = ";")
-#cbind(CR$Cited[1:10])
-#NetMatrix <- biblioNetwork(M, analysis = "co-citation", network = "references", sep = ";")
-#net=networkPlot(NetMatrix, n = 50, Title = "Co-Citation Network", type = "fruchterman", size.cex=TRUE, size=20, remove.multiple=FALSE, labelsize=0.7,edgesize = 10, edges.min=5)
-```
 
+# 2. Publications and Citations
+## Total Publication
+For citations, we found that papers started to get actively published after 2013, where the numbers peaked at 77 papers in 2018. As the literature of VGI is growing according to the, we are hoping to get more results in the upcoming years.
+
+![Annual Scienctific Production](https://i.imgur.com/NhRoFay.png)
 
 
 
-https://bibliometrix.org/documents/bibliometrix_Report.html
+## Most Productive Authors
+The highest number of papers was published by Linda See (IIASA, Austria) with 21 papers, followed by Alexander Zipf and Steffen Fritz with 16 and 15 respectively. 
 
+<details><summary>See Figure: Most Productive Authors</summary>
+<p>
+
+![Most Productive Authors](https://i.imgur.com/U8wzedG.png)
+</p>
+</details>
+
+## Most Productive Countries
+
+* USA, Germany, and the UK are the top 3 publishers of all 
+* The Netherlands and Austria have got more international collaboration than the domestic network
+
+<details><summary>See Figure: Most Productive Countries</summary>
+<p>
+
+![Most Productive Countries](https://i.imgur.com/edqfblw.png)
+</p>
+</details>
+
+
+## Citations
+
+* While there were fluctuations in the total citations during 2002-2006, the keyword "Volunteered Geographic Information" started to get cited from 2007 after Goodchild's paper "Citizens as sensors: the world of volunteered geography" published at *GeoJournal*.
+* Citation seems to decrease sharply
+* However, as VGI is getting more attention, more published papers are citing papers in latest years.  
+
+![](https://i.imgur.com/PUkzk4l.png)
+![](https://i.imgur.com/67aJPbY.png)
+
+* Highest Cited Papers
+
+| Rank | Author       | Year | Journal               | Citations |
+|------|--------------|------|-----------------------|----------:|
+| 1    | GOODCHILD MF | 2007 |  GEOJOURNAL           | 211       |
+| 2    | HAKLAY M     | 2010 |  ENVIRON PLANN B      | 116       |
+| 3    | GOODCHILD MF | 2012 |  SPAT STAT-NETH       | 91        |
+| 4    | FLANAGIN AJ  | 2008 |  GEOJOURNAL           | 77        |
+| 5    | GIRRES JF    | 2010 |  T GIS                | 73        |
+| 6    | HAKLAY M     | 2010 |  CARTOGR J            | 62        |
+| 7    | ELWOOD S     | 2012 |  ANN ASSOC AM GEOGR   | 56        |
+| 8    | SENARATNE H  | 2017 |  INT J GEOGR INF SCI  | 54        |
+| 9    | ZOOK M       | 2010 |  WORLD MED HEALTH POL | 50        |
+| 10   | GOODCHILD MF | 2010 |  INT J DIGIT EARTH    | 49        |
+
+
+* The most frequently cited first authors:
+
+| Author    | Total Citation |
+|-----------|---------------:|
+| GOODCHILD | 444            |
+| HAKLAY    | 342            |
+| NEIS      | 166            |
+| ELWOOD    | 161            |
+| MOONEY    | 153            |
+| ANONYMOUS | 131            |
+| SEE       | 121            |
+| ZIELSTRA  | 102            |
+| ARSANJANI | 88             |
+| FRITZ     | 87             |
+
+
+# 3. Top Author's Productivity over Time
+Here, we analyse the trend of authors productivity over time. I know it is brutal to analyse somebody's academic performance based on the quantity not the quality, but this hints us how scholars are continuously working on VGI projects. 
+
+
+From the figure below, we can see Linda See ranked on the 1st place. She is affilliated in IIASA, Austria where she works on VGI and citizen science with international scholars mostly from Europe. Steffen Fritz looks to me as the most consistent VGI scholar amongst others. He published papers from 2009 to 2020, and he is also affilliated in IIASA, Austria.
+
+![](https://i.imgur.com/QgkbYB2.png)
+
+
+
+# 4. Collaboration
+As previously mentioned, the first figure below shows that the USA, Germany, and the UK are the highest producing countries of the world. Although the links doesn't show the strength of collaboration, it is highly likely from the other statstics that the network between European countries is strong compared to other continents.
+
+The next figure is the centrality and betweenness amongst published papers. We can see that Goodchild's paper ["Citizens as sensors: the world of volunteered geography"](https://link.springer.com/article/10.1007/s10708-007-9111-y) was in the centre of the graph where it got cited over 210 times in WoS (>5,000 in Google Scholar). As the term is new and created from an active researcher, it been continuously cited over years. 
+
+
+![](https://i.imgur.com/DIghspj.png)
+
+![](https://i.imgur.com/GLK3RNb.png)
+
+
+# 5. Our Next Step
+
+I found that the `bibliometrix` are focusing on the networks of co-citations from the collections, but can only work on one database at a time. Each database requires different search queries and options for which the researcher can opt for, but there is less flexibility in `bibliometrix`.
+
+I am currently working on ways to integrate the bibliography across databases and examine the results after removing the duplicates. 
 

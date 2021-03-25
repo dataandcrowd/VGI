@@ -32,167 +32,273 @@ projects: []
 <li>Published papers written in English were exported to a <code>.bib</code> file</li>
 <li>We used an R package “bibliometrix” (<a href="https://www.bibliometrix.org/index.html">URL</a>) to explore the results</li>
 </ul>
+<div id="tags-vgi" class="section level6">
+<h6>tags: <code>VGI</code></h6>
+<div class="success">
+<p><strong>Bibliographic collection</strong>
+<br></p>
+<p><strong>Data source</strong>: Clarivate Analytics Web of Science (<a href="http://apps.webofknowledge.com" class="uri">http://apps.webofknowledge.com</a>)</p>
+<p><strong>Data format</strong>: Bibtex</p>
+<p><strong>Query</strong>: <strong>“Volunteered Geographic Information”</strong></p>
+<p><strong>Timespan</strong>: 2000-2021</p>
+<p><strong>Document Type</strong>: Articles and book chapters</p>
+<p><strong>Query data</strong>: March 24th, 2021</p>
+<p><strong>Tool for Analysis</strong>: R <code>bibliometrix</code></p>
 </div>
-<div id="intro" class="section level2">
-<h2>Intro</h2>
+</div>
+</div>
+<div id="descriptive-analysis" class="section level1">
+<h1>1. Descriptive Analysis</h1>
+<p>Out of 417 journals/books, 402 articles were published in a peer-reviewed journal, 2 in book chapters, and the rest in other places. Around 98% of the articles were multi-authored documents.</p>
+<div id="data" class="section level2">
+<h2>Data</h2>
 <ul>
-<li>Search Keyword</li>
-<li>Search Year</li>
+<li>Sources (Journals, Books, etc): 127</li>
+<li><strong>Documents: 417</strong></li>
+<li>Average years from publication: 3.89</li>
+<li>Average citations per documents: 14.5</li>
+<li>Average citations per year per doc: 2.337</li>
+<li>References: 15945</li>
 </ul>
 </div>
-<div id="download-in-scopus" class="section level2">
-<h2>Download in SCOPUS</h2>
+<div id="document-types" class="section level2">
+<h2>Document Types</h2>
+<ul>
+<li>Article: 402</li>
+<li>Book chapter: 2</li>
+<li>Data paper: 5</li>
+<li>Early access: 3</li>
+<li>Proceedings paper: 5</li>
+</ul>
 </div>
-<div id="load-library" class="section level2">
-<h2>Load Library</h2>
+<div id="document-contents" class="section level2">
+<h2>Document Contents</h2>
+<ul>
+<li>Authors: 1318
+<ul>
+<li>Authors of single-authored documents: 25</li>
+<li>Authors of multi-authored documents: 1293</li>
+</ul></li>
+</ul>
 </div>
-<div id="section" class="section level2">
-<h2></h2>
-<pre><code>## 
-## 
-## MAIN INFORMATION ABOUT DATA
-## 
-##  Timespan                              2003 : 2021 
-##  Sources (Journals, Books, etc)        395 
-##  Documents                             1257 
-##  Average years from publication        5.22 
-##  Average citations per documents       0 
-##  Average citations per year per doc    0 
-##  References                            1 
-##  
-## DOCUMENT CONTENTS
-##  Keywords Plus (ID)                    0 
-##  Author&#39;s Keywords (DE)                4497 
-##  
-## AUTHORS
-##  Authors                               2451 
-##  Author Appearances                    4008 
-##  Authors of single-authored documents  136 
-##  Authors of multi-authored documents   2315 
-##  
-## AUTHORS COLLABORATION
-##  Single-authored documents             217 
-##  Documents per Author                  0.513 
-##  Authors per Document                  1.95 
-##  Co-Authors per Documents              3.19 
-##  Collaboration Index                   2.23 
-##  
-## 
-## Annual Scientific Production
-## 
-##  Year    Articles
-##     2003        1
-##     2007        2
-##     2008       11
-##     2009        9
-##     2010       41
-##     2011       45
-##     2012       69
-##     2013      123
-##     2014       95
-##     2015      157
-##     2016      138
-##     2017      149
-##     2018      168
-##     2019      129
-##     2020      101
-##     2021       19
-## 
-## Annual Percentage Growth Rate 17.77195 
-## 
-## 
-## Most Productive Authors
-## 
-##       Authors        Articles    Authors        Articles Fractionalized
-## 1  ZIPF A                  54 NA NA                               43.00
-## 2  NA NA                   43 ZIPF A                              16.44
-## 3  MOONEY P                24 MOONEY P                             8.93
-## 4  SEE L                   24 ELWOOD S                             7.33
-## 5  DE ALBUQUERQUE JP       23 LIN W                                7.00
-## 6  FAN H                   15 DE ALBUQUERQUE JP                    6.26
-## 7  JANOWICZ K              15 TOEPKE SL                            6.00
-## 8  FONTE CC                13 BALLATORE A                          5.58
-## 9  FRITZ S                 13 FOODY GM                             5.18
-## 10 BALLATORE A             12 GOODCHILD MF                         5.08
-## 
-## 
-## Top manuscripts per citations
-## 
-##             Paper                                      DOI TC TCperYear NTC
-## 1  TELES DA MOTA V, 2021,  10.1016/j.ocecoaman.2021.105519  0         0 NaN
-## 2  BALDUCCI F, 2021,       10.1177/2399808319876949         0         0 NaN
-## 3  TEMPELMEIER N, 2021,    10.1016/j.future.2020.11.003     0         0 NaN
-## 4  WU F, 2021,             10.3390/s21041165                0         0 NaN
-## 5  ZHOU Y, 2021,           10.1111/tgis.12690               0         0 NaN
-## 6  KLONNER C, 2021,        10.1007/s13753-020-00312-8       0         0 NaN
-## 7  MIAO R, 2021,           10.3390/su13020647               0         0 NaN
-## 8  HOWE LB, 2021,          10.1177/0042098020982251         0         0 NaN
-## 9  GRACE R, 2021,          10.1016/j.ijdrr.2020.101923      0         0 NaN
-## 10 WANG C, 2021,           10.1080/17538947.2020.1808721    0         0 NaN
-## 
-## 
-## Corresponding Author&#39;s Countries
-## 
-##           Country Articles   Freq SCP MCP MCP_Ratio
-## 1  USA                 200 0.1857 200   0    0.0000
-## 2  GERMANY             151 0.1402 151   0    0.0000
-## 3  CHINA                94 0.0873  93   1    0.0106
-## 4  CANADA               66 0.0613  66   0    0.0000
-## 5  ITALY                64 0.0594  63   1    0.0156
-## 6  UNITED KINGDOM       57 0.0529  57   0    0.0000
-## 7  BRAZIL               51 0.0474  51   0    0.0000
-## 8  AUSTRALIA            50 0.0464  50   0    0.0000
-## 9  AUSTRIA              44 0.0409  43   1    0.0227
-## 10 IRELAND              29 0.0269  29   0    0.0000
-## 
-## 
-## SCP: Single Country Publications
-## 
-## MCP: Multiple Country Publications
-## 
-## 
-## Total Citations per Country
-## 
-##      Country      Total Citations Average Article Citations
-## 1  AUSTRALIA                    0                         0
-## 2  AUSTRIA                      0                         0
-## 3  BELGIUM                      0                         0
-## 4  BOTSWANA                     0                         0
-## 5  BRAZIL                       0                         0
-## 6  CANADA                       0                         0
-## 7  CHILE                        0                         0
-## 8  CHINA                        0                         0
-## 9  CROATIA                      0                         0
-## 10 CUBA                         0                         0
-## 
-## 
-## Most Relevant Sources
-## 
-##                                                                                                                          Sources       
-## 1  ISPRS INTERNATIONAL JOURNAL OF GEO-INFORMATION                                                                                      
-## 2  LECTURE NOTES IN COMPUTER SCIENCE (INCLUDING SUBSERIES LECTURE NOTES IN ARTIFICIAL INTELLIGENCE AND LECTURE NOTES IN BIOINFORMATICS)
-## 3  INTERNATIONAL ARCHIVES OF THE PHOTOGRAMMETRY REMOTE SENSING AND SPATIAL INFORMATION SCIENCES - ISPRS ARCHIVES                       
-## 4  INTERNATIONAL JOURNAL OF GEOGRAPHICAL INFORMATION SCIENCE                                                                           
-## 5  LECTURE NOTES IN GEOINFORMATION AND CARTOGRAPHY                                                                                     
-## 6  TRANSACTIONS IN GIS                                                                                                                 
-## 7  GEOJOURNAL                                                                                                                          
-## 8  CEUR WORKSHOP PROCEEDINGS                                                                                                           
-## 9  CROWDSOURCING GEOGRAPHIC KNOWLEDGE: VOLUNTEERED GEOGRAPHIC INFORMATION (VGI) IN THEORY AND PRACTICE                                 
-## 10 APPLIED GEOGRAPHY                                                                                                                   
-##    Articles
-## 1        86
-## 2        69
-## 3        57
-## 4        40
-## 5        40
-## 6        32
-## 7        31
-## 8        24
-## 9        20
-## 10       18</code></pre>
-<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-5-1.png" width="672" /><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-5-2.png" width="672" /><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-5-3.png" width="672" /></p>
-<pre><code>## Warning: Removed 1 rows containing missing values (position_stack).</code></pre>
-<pre><code>## Warning: Removed 1 row(s) containing missing values (geom_path).</code></pre>
-<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-5-4.png" width="672" /><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-5-5.png" width="672" /><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-5-6.png" width="672" /></p>
-<p><a href="https://bibliometrix.org/documents/bibliometrix_Report.html" class="uri">https://bibliometrix.org/documents/bibliometrix_Report.html</a></p>
+<div id="author-collaboration" class="section level2">
+<h2>Author Collaboration</h2>
+<ul>
+<li>Single-authored documents: 26</li>
+<li>Documents per Author: 0.316</li>
+<li>Authors per Document: 3.16</li>
+<li>Co-Authors per Documents: 4.06</li>
+<li>Collaboration Index: 3.31</li>
+</ul>
+</div>
+<div id="keyword-co-occurrences" class="section level2">
+<h2>Keyword Co-occurrences</h2>
+<p><img src="https://i.imgur.com/vY1heUm.png" /></p>
+<p><br><br></p>
+</div>
+</div>
+<div id="publications-and-citations" class="section level1">
+<h1>2. Publications and Citations</h1>
+<div id="total-publication" class="section level2">
+<h2>Total Publication</h2>
+<p>For citations, we found that papers started to get actively published after 2013, where the numbers peaked at 77 papers in 2018. As the literature of VGI is growing according to the, we are hoping to get more results in the upcoming years.</p>
+<div class="figure">
+<img src="https://i.imgur.com/NhRoFay.png" alt="" />
+<p class="caption">Annual Scienctific Production</p>
+</div>
+</div>
+<div id="most-productive-authors" class="section level2">
+<h2>Most Productive Authors</h2>
+<p>The highest number of papers was published by Linda See (IIASA, Austria) with 21 papers, followed by Alexander Zipf and Steffen Fritz with 16 and 15 respectively.</p>
+<details>
+<summary>
+See Figure: Most Productive Authors
+</summary>
+<p>
+<img src="https://i.imgur.com/U8wzedG.png" title="fig:" alt="Most Productive Authors" />
+</p>
+</details>
+</div>
+<div id="most-productive-countries" class="section level2">
+<h2>Most Productive Countries</h2>
+<ul>
+<li>USA, Germany, and the UK are the top 3 publishers of all</li>
+<li>The Netherlands and Austria have got more international collaboration than the domestic network</li>
+</ul>
+<details>
+<summary>
+See Figure: Most Productive Countries
+</summary>
+<p>
+<img src="https://i.imgur.com/edqfblw.png" title="fig:" alt="Most Productive Countries" />
+</p>
+</details>
+</div>
+<div id="citations" class="section level2">
+<h2>Citations</h2>
+<ul>
+<li>While there were fluctuations in the total citations during 2002-2006, the keyword “Volunteered Geographic Information” started to get cited from 2007 after Goodchild’s paper “Citizens as sensors: the world of volunteered geography” published at <em>GeoJournal</em>.</li>
+<li>Citation seems to decrease sharply</li>
+<li>However, as VGI is getting more attention, more published papers are citing papers in latest years.</li>
+</ul>
+<p><img src="https://i.imgur.com/PUkzk4l.png" />
+<img src="https://i.imgur.com/67aJPbY.png" /></p>
+<ul>
+<li>Highest Cited Papers</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Rank</th>
+<th>Author</th>
+<th>Year</th>
+<th>Journal</th>
+<th align="right">Citations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>GOODCHILD MF</td>
+<td>2007</td>
+<td>GEOJOURNAL</td>
+<td align="right">211</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>HAKLAY M</td>
+<td>2010</td>
+<td>ENVIRON PLANN B</td>
+<td align="right">116</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>GOODCHILD MF</td>
+<td>2012</td>
+<td>SPAT STAT-NETH</td>
+<td align="right">91</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>FLANAGIN AJ</td>
+<td>2008</td>
+<td>GEOJOURNAL</td>
+<td align="right">77</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>GIRRES JF</td>
+<td>2010</td>
+<td>T GIS</td>
+<td align="right">73</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>HAKLAY M</td>
+<td>2010</td>
+<td>CARTOGR J</td>
+<td align="right">62</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>ELWOOD S</td>
+<td>2012</td>
+<td>ANN ASSOC AM GEOGR</td>
+<td align="right">56</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>SENARATNE H</td>
+<td>2017</td>
+<td>INT J GEOGR INF SCI</td>
+<td align="right">54</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>ZOOK M</td>
+<td>2010</td>
+<td>WORLD MED HEALTH POL</td>
+<td align="right">50</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>GOODCHILD MF</td>
+<td>2010</td>
+<td>INT J DIGIT EARTH</td>
+<td align="right">49</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The most frequently cited first authors:</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Author</th>
+<th align="right">Total Citation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GOODCHILD</td>
+<td align="right">444</td>
+</tr>
+<tr class="even">
+<td>HAKLAY</td>
+<td align="right">342</td>
+</tr>
+<tr class="odd">
+<td>NEIS</td>
+<td align="right">166</td>
+</tr>
+<tr class="even">
+<td>ELWOOD</td>
+<td align="right">161</td>
+</tr>
+<tr class="odd">
+<td>MOONEY</td>
+<td align="right">153</td>
+</tr>
+<tr class="even">
+<td>ANONYMOUS</td>
+<td align="right">131</td>
+</tr>
+<tr class="odd">
+<td>SEE</td>
+<td align="right">121</td>
+</tr>
+<tr class="even">
+<td>ZIELSTRA</td>
+<td align="right">102</td>
+</tr>
+<tr class="odd">
+<td>ARSANJANI</td>
+<td align="right">88</td>
+</tr>
+<tr class="even">
+<td>FRITZ</td>
+<td align="right">87</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="top-authors-productivity-over-time" class="section level1">
+<h1>3. Top Author’s Productivity over Time</h1>
+<p>Here, we analyse the trend of authors productivity over time. I know it is brutal to analyse somebody’s academic performance based on the quantity not the quality, but this hints us how scholars are continuously working on VGI projects.</p>
+<p>From the figure below, we can see Linda See ranked on the 1st place. She is affilliated in IIASA, Austria where she works on VGI and citizen science with international scholars mostly from Europe. Steffen Fritz looks to me as the most consistent VGI scholar amongst others. He published papers from 2009 to 2020, and he is also affilliated in IIASA, Austria.</p>
+<p><img src="https://i.imgur.com/QgkbYB2.png" /></p>
+</div>
+<div id="collaboration" class="section level1">
+<h1>4. Collaboration</h1>
+<p>As previously mentioned, the first figure below shows that the USA, Germany, and the UK are the highest producing countries of the world. Although the links doesn’t show the strength of collaboration, it is highly likely from the other statstics that the network between European countries is strong compared to other continents.</p>
+<p>The next figure is the centrality and betweenness amongst published papers. We can see that Goodchild’s paper <a href="https://link.springer.com/article/10.1007/s10708-007-9111-y">“Citizens as sensors: the world of volunteered geography”</a> was in the centre of the graph where it got cited over 210 times in WoS (&gt;5,000 in Google Scholar). As the term is new and created from an active researcher, it been continuously cited over years.</p>
+<p><img src="https://i.imgur.com/DIghspj.png" /></p>
+<p><img src="https://i.imgur.com/GLK3RNb.png" /></p>
+</div>
+<div id="our-next-step" class="section level1">
+<h1>5. Our Next Step</h1>
+<p>I found that the <code>bibliometrix</code> are focusing on the networks of co-citations from the collections, but can only work on one database at a time. Each database requires different search queries and options for which the researcher can opt for, but there is less flexibility in <code>bibliometrix</code>.</p>
+<p>I am currently working on ways to integrate the bibliography across databases and examine the results after removing the duplicates.</p>
 </div>

@@ -142,10 +142,11 @@ NetMatrix <- biblioNetwork(M1, analysis = "collaboration", network = "countries"
 net <- networkPlot(NetMatrix, 
                    n = dim(NetMatrix)[1], 
                    Title = "Country Collaboration", 
-                   type = "circle", 
+                   type = "fruchterman", 
                    size=TRUE, 
                    remove.multiple=FALSE,
                    labelsize=1,
+                   alpha = 1,
                    cluster="none")
 
 
