@@ -21,6 +21,8 @@ image:
 projects: []
 ---
 
+---
+
 ## tl;dr
 
 - We will do a bunch of analysis from the search database
@@ -34,12 +36,8 @@ options(width=100)
 ```
 
 ---
-title: SLR Naive Search - "Volunteered Geographic Information"
----
-###### tags: `VGI`
 
-:::success
-**Bibliographic collection**
+**Bibliographic collection: Summary**
 <br>
 
 **Data source**:   Clarivate Analytics Web of Science (http://apps.webofknowledge.com)
@@ -55,7 +53,8 @@ title: SLR Naive Search - "Volunteered Geographic Information"
 **Query data**:    March 24th, 2021
 
 **Tool for Analysis**: R `bibliometrix`
-:::
+
+---
 
 
 # 1. Descriptive Analysis
