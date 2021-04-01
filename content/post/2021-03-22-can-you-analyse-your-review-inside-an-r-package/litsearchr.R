@@ -4,7 +4,7 @@ library(litsearchr)
 library(synthesisr)
 
 bibfiles <- list.files(
-  path = "content/post/2021-03-22-can-you-analyse-your-review-inside-an-r-package/",
+  path = "content/post/2021-04-01-database-search-part-2/",
   pattern = ".bib",
   full.names = TRUE)
 
