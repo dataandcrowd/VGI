@@ -1,4 +1,4 @@
-Sys.setenv(LANG = "en_US.UTF-8")
+Sys.setlocale("LC_ALL","English")
 
 library(litsearchr)
 library(synthesisr)
@@ -21,7 +21,9 @@ naive_import <- read_refs(
 keywords <- read_csv("content/post/2021-04-01-database-search-part-2/vgi1.csv")
 
 naive_import %>% 
-  bind_cols(keywords %>% select(Keywords)) -> naive_import
+  bind_cols(keywords %>% 
+              select(Keywords, DOI) %>% 
+              select(-doi)) -> naive_import
 
 #
 nrow(naive_import)
