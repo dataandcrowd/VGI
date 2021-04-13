@@ -4,7 +4,7 @@ library(tidyverse)
 library(litsearchr)
 library(synthesisr)
 library(magrittr)
-library(bib2df)
+#library(bib2df)
 #library(bibliometrix)
 
 
@@ -26,7 +26,7 @@ dir()
 
 #results %<>% arrange(desc(n_duplicates))
 
-load('slr.rda')
+load('content/post/2021-04-01-database-search-part-2/slr.rda')
 
 raked_keywords <-
   litsearchr::extract_terms(
@@ -174,6 +174,5 @@ authored_final %>%
 
 
 ##########
-df2bib(results)
 
 
