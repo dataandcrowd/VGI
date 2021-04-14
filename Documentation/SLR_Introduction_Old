@@ -1,0 +1,62 @@
+## Title: The Under-represented factors affecting the Participation of Geographic Crowdsourcing Projects: A Systematic Review
+
+
+## 1. Introduction
+### 1.1. Background
+* Volunteering geographic information (VGI) or geographic crowdsourcing has been beneficial to our society with regard to gathering adequate information where one cannot acquire from. 
+* Successful VGI projects include: 
+    - **WOW-UK**: collects weather observation ([Chaptman et al., 2017](https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.4940))
+    - **MySoil**: collects soil observation in Europe ([Shelley, Lawley and Robinson, 2013](https://www.nature.com/articles/496300d))
+    - **Colouring London**: gathers geospatial data related to London’s building stock ([Hudson et al., 2018](https://www.researchgate.net/profile/Polly_Hudson/publication/333569102_Colouring_London_-A_Crowdsourcing_Platform_for_Geospatial_Data_Related_to_London's_Building_Stock_Winner_Best_Paper_GISRUK_2019/links/5cf510f2299bf1fb18539112/Colouring-London-A-Crowdsourcing-Platform-for-Geospatial-Data-Related-to-Londons-Building-Stock-Winner-Best-Paper-GISRUK-2019.pdf))
+    - **Mapillary**: collects to view photo and videos on that location, which can be seen as an augmented reality version of crowdsourcing ([Neuhold et al., 2017](https://openaccess.thecvf.com/content_ICCV_2017/papers/Neuhold_The_Mapillary_Vistas_ICCV_2017_paper.pdf)). 
+    - OpenStreetMap (OSM): An ongoing crowdsourcing project in which developers and non-developers help construct an up-to-date database for the public good e.g. provided spatial information for Haiti's post-earthquake recovery ([Bertolotto et al. 2020](http://www.josis.org/index.php/josis/article/view/659/275))
+
+### 1.2. Problem Statement 1: What are the under-represented factors?
+* Recent studies have problematised the unevenness of participants in many projects which can result in an under-representation of particular groups and individuals
+* Sui et al. (2012)⁠ and Haworth (2018)⁠ asserted that despite the advent of big data and Web2.0, only a small, privileged population, who are likely to be men, dwelling in the northern hemisphere, communicating in English, and can afford the time to work on such projects, will take the majority of the benefits that the world of data can offer.
+* **Under-represented groups** include:
+    - Women
+    - Low income & Time unavailability
+    - Ethnic minority e.g. BAME
+    - Users that do not originate from Europe and North American countries
+    - Lack of social & technical support
+    - Political, cultural, and military issues
+
+### 1.3. Problem Statement 2: What are the possible outcomes that we might see as a result of neglecting the under-represented factors?
+1. Drop important information on the map: childcare services, toilets, domestic violence shelters are essential for women but were excluded. This may provide misunderstandings to the general readers that these services are hard to gather or not taken as important as the other social amenities 
+2. Skewed attention may be given to such study areas in countries where there are fewer restrictions and more social and technical support 
+
+### 1.4. Why do we need a systematic review for this topic?
+* No comprehensive overview that encompasses the issues of under-represented groups or biased responses has been published in the literature
+* This might be because the concept VGI is still very young and many review papers have paid more attention to the outcome quality rather than the composition of the participants.
+* Empirical studies that examined the biased participation in VGI have found salient factors which are in common with other studies while others depend on the research topic
+* A systematic review is therefore needed to ‘systematically’ identify the factors that are important for this issue. Through this review, we expect to list the concerns from the non-mainstream population and moreover think carefully to develop future VGI projects that can be more public-representative.
+
+
+### 1.5. Research Objective
+This paper conducts a systematic review to identify and analyse the main components of under-represented participants in various VGI projects and the outlook to encourage diverse participation in future geospatial crowdsourcing. The objective is followed by some specific questions listed below:
+```
+1. What discipline or journal type have published VGI projects?
+2. Which demographic group has mostly/least contributed to the project?
+3. What are the non-demographic factors that are under-represented?
+4. What type of solution has been raised by the scientific community in terms of inducing diverse participants?
+```
+
+## 2. Methodology
+### 2.3. Structure
+* PRISMA method
+
+### 2.2. Database
+* Web of Science
+* SCOPUS
+* ScienceDirect
+* JSTOR
+* EBSCO Technology & Engineering Research Databases
+
+### 2.3. Data Screening
+* Filtering period: 2000-2020
+* Language: English
+* Quality assessment: It would be better to have more than one reviewer to screen the literature. I suppose we need 2-3 people do help me with this if available.
+
+
+
