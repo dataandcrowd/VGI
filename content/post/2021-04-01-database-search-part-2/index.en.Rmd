@@ -20,4 +20,31 @@ image:
 projects: []
 ---
 
-.
+# Setup
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(litsearchr)
+library(synthesisr)
+library(magrittr)
+```
+
+# Import Bibtex files
+```{r}
+#bibfiles <- list.files(
+#  path = getwd(),
+#  pattern = ".bib",
+#  full.names = TRUE)
+
+#import <- read_refs(
+#  filename = bibfiles,
+#  return_df = TRUE)
+
+
+#nrow(import)
+#results <- remove_duplicates(import, field = "title", method = "string_osa")
+#results$type <- tolower(results$type)
+
+#results %<>% arrange(desc(n_duplicates))
+```
+
