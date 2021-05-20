@@ -1,0 +1,398 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "alv",
+    "uid": "4660",
+    "since": "2006-11-11",
+    "traces": "1775",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "533939",
+    "f_tstamp": "2007-11-16",
+    "f_lon": "24.92228125",
+    "f_lat": "60.16888875",
+    "l_id": "104405394",
+    "l_tstamp": "2021-05-09",
+    "l_lon": "25.02694305",
+    "l_lat": "60.22590085"
+  },
+  "nodes": {
+    "c": "433131",
+    "m": "276857",
+    "d": "16549",
+    "lm": "249495"
+  },
+  "ways": {
+    "c": "92188",
+    "m": "167217",
+    "d": "4450",
+    "lm": "37834"
+  },
+  "waytags": {
+    "c_addr": "13471",
+    "m_addr": "24598",
+    "c_building": "15731",
+    "m_building": "29560",
+    "c_highway": "61703",
+    "m_highway": "142799",
+    "c_landuse": "3968",
+    "m_landuse": "7151",
+    "c_name": "33180",
+    "m_name": "159179",
+    "c_natural": "7533",
+    "m_natural": "5308",
+    "c_waterway": "1192",
+    "m_waterway": "550"
+  },
+  "relations": {
+    "c": "1636",
+    "m": "24835",
+    "d": "175",
+    "lm": "642"
+  },
+  "changesets": {
+    "no": "17487",
+    "changes": "1018708",
+    "max_gap_days": "241",
+    "mapping_days_year": "2007=32;2008=298;2009=319;2010=319;2011=301;2012=308;2013=287;2014=264;2015=238;2016=63;2017=28;2018=4;2019=12;2020=38;2021=20",
+    "info": "15707;15656;8528;28.18;20.00;4889;4063;7022;1512;1",
+    "editors": "JOSM=15589;JOSM (Reverter)=30;Potlatch=227;Vespucci=512;iD=1",
+    "bboxs": "16291;1.62;0.00",
+    "days": "1806,2938,2784,2859,2835,2469,1796",
+    "hours": "240,94,37,83,114,148,586,912,1236,1298,1257,1180,1207,1046,981,1072,1044,1012,772,501,488,816,836,527",
+    "mapping_days": "2531",
+    "comment_wordcount": "tarkennusta (1279), hourly (732), traffic (691), ilmakuvista (578), addr (557)",
+    "hashtag_wordcount": ""
+  },
+  "countries": {
+    "countries": "Finland=fi=16669=936716;Philippines=ph=77=14734;Germany=de=57=12819;Haiti=ht=25=10139;New Zealand=nz=13=7886;Spain=es=61=7644;Greece=gr=104=6583;Swaziland=sz=8=6408;Estonia=ee=112=4161;Indonesia=id=2=2142;India=in=1=2135;United States=us=56=1946;Sweden=se=36=1612;Turkey=tr=14=1199;Russia=ru=4=1051;unknown=unknown=230=538;Poland=pl=1=513;Iran=ir=1=272;United Kingdom=gb=4=71;Norway=no=2=42;Canada=ca=1=38;Venezuela=ve=1=29;Australia=au=2=19;Netherlands=nl=3=6;Morocco=ma=1=2;Bulgaria=bg=1=2;Czech Republic=cz=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "1162",
+      "name": "451",
+      "shop": "356",
+      "addr:": "3006",
+      "name:": "45",
+      "place": "18",
+      "power": "2597",
+      "sport": "12",
+      "amenity": "2246",
+      "barrier": "826",
+      "highway": "9862",
+      "leisure": "19",
+      "natural": "2294",
+      "railway": "1",
+      "surface": "6",
+      "tourism": "58",
+      "building": "7",
+      "historic": "13",
+      "man_made": "2633",
+      "building:": "25",
+      "emergency": "24",
+      "public_transport": "3"
+    },
+    "way_tags": {
+      "ref": "1215",
+      "name": "2426",
+      "shop": "10",
+      "addr:": "2768",
+      "name:": "3647",
+      "place": "4",
+      "power": "584",
+      "sport": "22",
+      "amenity": "892",
+      "barrier": "5498",
+      "highway": "14294",
+      "landuse": "879",
+      "leisure": "133",
+      "natural": "1875",
+      "railway": "754",
+      "surface": "9898",
+      "tourism": "12",
+      "boundary": "4",
+      "building": "8762",
+      "historic": "3",
+      "man_made": "2121",
+      "waterway": "688",
+      "building:": "2994",
+      "emergency": "72",
+      "public_transport": "2"
+    },
+    "relation_tags": {
+      "ref": "4",
+      "name": "16",
+      "addr:": "6",
+      "name:": "3",
+      "route": "7",
+      "amenity": "1",
+      "natural": "2",
+      "surface": "1",
+      "tourism": "1",
+      "boundary": "1",
+      "building": "3",
+      "building:": "20",
+      "restriction": "309"
+    }
+  },
+  "notes": {
+    "op": "1",
+    "co": "2",
+    "cl": "20",
+    "clco": "14"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "7",
+    "com_changesets": "14",
+    "num_comments": "17",
+    "dis_responses": "5"
+  },
+  "calendar": [
+    {
+      "date": "2020-05-18",
+      "count": "4"
+    },
+    {
+      "date": "2020-05-21",
+      "count": "2"
+    },
+    {
+      "date": "2020-05-30",
+      "count": "2"
+    },
+    {
+      "date": "2020-05-31",
+      "count": "1"
+    },
+    {
+      "date": "2020-07-06",
+      "count": "1"
+    },
+    {
+      "date": "2020-07-12",
+      "count": "3"
+    },
+    {
+      "date": "2020-07-22",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-17",
+      "count": "3"
+    },
+    {
+      "date": "2020-10-02",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-03",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-05",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-16",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-17",
+      "count": "4"
+    },
+    {
+      "date": "2020-10-24",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-01",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-13",
+      "count": "4"
+    },
+    {
+      "date": "2020-11-15",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-27",
+      "count": "11"
+    },
+    {
+      "date": "2020-12-01",
+      "count": "4"
+    },
+    {
+      "date": "2020-12-02",
+      "count": "14"
+    },
+    {
+      "date": "2020-12-03",
+      "count": "4"
+    },
+    {
+      "date": "2020-12-05",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-09",
+      "count": "16"
+    },
+    {
+      "date": "2020-12-10",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-11",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-13",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-20",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-23",
+      "count": "4"
+    },
+    {
+      "date": "2020-12-27",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-28",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-30",
+      "count": "10"
+    },
+    {
+      "date": "2020-12-31",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-01",
+      "count": "3"
+    },
+    {
+      "date": "2021-01-02",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-24",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-04",
+      "count": "3"
+    },
+    {
+      "date": "2021-03-11",
+      "count": "6"
+    },
+    {
+      "date": "2021-03-16",
+      "count": "4"
+    },
+    {
+      "date": "2021-03-17",
+      "count": "5"
+    },
+    {
+      "date": "2021-03-25",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-31",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-01",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-02",
+      "count": "4"
+    },
+    {
+      "date": "2021-04-03",
+      "count": "3"
+    },
+    {
+      "date": "2021-04-04",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-08",
+      "count": "5"
+    },
+    {
+      "date": "2021-04-12",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-17",
+      "count": "4"
+    },
+    {
+      "date": "2021-04-19",
+      "count": "3"
+    },
+    {
+      "date": "2021-04-22",
+      "count": "2"
+    },
+    {
+      "date": "2021-04-28",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-09",
+      "count": "4"
+    }
+  ],
+  "recent": [
+    {
+      "country": "Finland",
+      "count": "40",
+      "code": "fi"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "Finland",
+      "rank": "208",
+      "code": "fi"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-05-09",
+      "tag": "routing=891, tagging=194",
+      "trend": "down",
+      "trendamount": -2
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-05-09",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alv?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=631, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alv?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=820, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alv?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=8369",
+      "trend": "down",
+      "trendamount": -17
+    }
+  ]
+}

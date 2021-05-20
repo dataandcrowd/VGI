@@ -1,0 +1,111 @@
+{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "andreougm",
+    "uid": "418923",
+    "since": "2011-03-08",
+    "traces": "0",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "https://www.gravatar.com/avatar/f2354ed4aeaee2b375beb97ce4a3e6f4.jpg?s=256&d=https%3A%2F%2Fwww.openstreetmap.org%2Fassets%2Fusers%2Fimages%2Flarge-afe7442b856c223cca92b1a16d96a3266ec0c86cac8031269e90ef93562adb72.png",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "50920655",
+    "f_tstamp": "2017-08-07",
+    "f_lon": "33.3564573",
+    "f_lat": "34.73312535",
+    "l_id": "56564719",
+    "l_tstamp": "2018-02-21",
+    "l_lon": "39.2011654",
+    "l_lat": "35.87832285"
+  },
+  "nodes": {
+    "c": "357",
+    "m": "3",
+    "d": "26",
+    "lm": "25"
+  },
+  "ways": {
+    "c": "65",
+    "m": "6",
+    "d": "2",
+    "lm": "5"
+  },
+  "waytags": {
+    "c_addr": "0",
+    "m_addr": "0",
+    "c_building": "3",
+    "m_building": "0",
+    "c_highway": "1",
+    "m_highway": "0",
+    "c_landuse": "0",
+    "m_landuse": "0",
+    "c_name": "99",
+    "m_name": "225",
+    "c_natural": "53",
+    "m_natural": "5",
+    "c_waterway": "26",
+    "m_waterway": "0"
+  },
+  "relations": {
+    "c": "0",
+    "m": "1",
+    "d": "0",
+    "lm": "0"
+  },
+  "changesets": {
+    "no": "91",
+    "changes": "460",
+    "max_gap_days": "166",
+    "mapping_days_year": "2017=4;2018=1",
+    "info": "91;91;24;9.24;4.00;50;35;6;0;0",
+    "editors": "JOSM=4;iD=87",
+    "bboxs": "56;0.00;0.00",
+    "days": "0,12,4,4,69,2,0",
+    "hours": "0,0,0,0,0,0,0,0,0,0,0,0,1,64,8,10,0,0,0,4,2,0,1,1",
+    "": null
+  },
+  "countries": {
+    "countries": "Cyprus=cy=89=450;Syria=sy=1=5;United States=us=1=5"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "man_made": "1"
+    },
+    "way_tags": {
+      "name": "2",
+      "building": "2",
+      "historic": "2"
+    },
+    "relation_tags": {}
+  },
+  "notes": {
+    "op": "1",
+    "co": "0",
+    "cl": "0",
+    "clco": "0"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "0",
+    "com_changesets": "0",
+    "num_comments": "0",
+    "dis_responses": "0"
+  },
+  "calendar": [],
+  "recent": [],
+  "ranks": [],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2020-10-03",
+      "tag": "tagging=1",
+      "trend": "",
+      "trendamount": 0
+    }
+  ]
+}

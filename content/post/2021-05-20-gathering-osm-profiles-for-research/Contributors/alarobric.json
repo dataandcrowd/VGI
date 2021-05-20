@@ -1,0 +1,236 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "alarobric",
+    "uid": "525369",
+    "since": "2011-09-21",
+    "traces": "22",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "https://www.gravatar.com/avatar/6fbb0f9c07959cc28d282fb374c2eda0.jpg?s=100&d=https%3A%2F%2Fwww.openstreetmap.org%2Fassets%2Favatar_large-54d681ddaf47c4181b05dbfae378dc0201b393bbad3ff0e68143c3d5f3880ace.png",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "34035284",
+    "f_tstamp": "2015-09-15",
+    "f_lon": "-119.55043485",
+    "f_lat": "49.1555351",
+    "l_id": "103013351",
+    "l_tstamp": "2021-04-15",
+    "l_lon": "-122.93160185",
+    "l_lat": "49.19578675"
+  },
+  "nodes": {
+    "c": "42511",
+    "m": "7770",
+    "d": "17491",
+    "lm": "42191"
+  },
+  "ways": {
+    "c": "4461",
+    "m": "7190",
+    "d": "846",
+    "lm": "6170"
+  },
+  "waytags": {
+    "c_addr": "350",
+    "m_addr": "2313",
+    "c_building": "2327",
+    "m_building": "1485",
+    "c_highway": "1466",
+    "m_highway": "3068",
+    "c_landuse": "173",
+    "m_landuse": "156",
+    "c_name": "846",
+    "m_name": "4166",
+    "c_natural": "224",
+    "m_natural": "152",
+    "c_waterway": "129",
+    "m_waterway": "3848"
+  },
+  "relations": {
+    "c": "91",
+    "m": "122",
+    "d": "22",
+    "lm": "67"
+  },
+  "changesets": {
+    "no": "574",
+    "changes": "80156",
+    "max_gap_days": "234",
+    "mapping_days_year": "2015=50;2016=66;2017=67;2018=23;2019=25;2020=1;2021=3",
+    "info": "574;574;492;49.33;44.00;114;80;269;111;0",
+    "editors": "Go Map!!=6;JOSM=429;StreetComplete=55;iD=81;maps.me=3",
+    "bboxs": "539;0.05;0.00",
+    "days": "36,63,88,100,115,92,80",
+    "hours": "21,21,10,23,64,74,93,95,40,7,0,0,0,0,0,1,11,15,15,21,29,14,8,12",
+    "mapping_days": "235",
+    "comment_wordcount": "added (210), fixed (66), updated (56), park (50), buildings (49)",
+    "hashtag_wordcount": "#servicecanada-project-115 (4)"
+  },
+  "countries": {
+    "countries": "Canada=ca=537=71811;Mexico=mx=4=3012;South Sudan=ss=11=1198;India=in=2=1184;Haiti=ht=4=921;Uganda=ug=2=835;United Republic of Tanzania=tz=1=733;Sri Lanka=lk=2=218;Afghanistan=af=2=197;United Kingdom=gb=1=33;United States=us=2=10;El Salvador=sv=1=2;unknown=unknown=4=1;The Bahamas=bs=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "8",
+      "name": "215",
+      "shop": "90",
+      "addr:": "107",
+      "name:": "52",
+      "place": "24",
+      "power": "11",
+      "sport": "21",
+      "amenity": "198",
+      "barrier": "10",
+      "highway": "138",
+      "leisure": "67",
+      "natural": "43",
+      "railway": "25",
+      "surface": "1",
+      "tourism": "74",
+      "building": "2",
+      "historic": "4",
+      "man_made": "4",
+      "waterway": "4",
+      "emergency": "30",
+      "public_transport": "4"
+    },
+    "way_tags": {
+      "ref": "43",
+      "name": "927",
+      "shop": "48",
+      "addr:": "1591",
+      "name:": "1",
+      "power": "2",
+      "route": "1",
+      "sport": "38",
+      "amenity": "137",
+      "barrier": "21",
+      "highway": "1542",
+      "landuse": "246",
+      "leisure": "119",
+      "natural": "136",
+      "railway": "29",
+      "surface": "546",
+      "tourism": "6",
+      "boundary": "1",
+      "building": "3103",
+      "man_made": "17",
+      "waterway": "719",
+      "building:": "84",
+      "public_transport": "1"
+    },
+    "relation_tags": {
+      "ref": "3",
+      "name": "10",
+      "shop": "1",
+      "addr:": "4",
+      "place": "1",
+      "route": "4",
+      "highway": "1",
+      "landuse": "6",
+      "leisure": "1",
+      "natural": "23",
+      "surface": "1",
+      "tourism": "1",
+      "building": "1",
+      "building:": "1",
+      "restriction": "29"
+    }
+  },
+  "notes": {
+    "op": "0",
+    "co": "0",
+    "cl": "3",
+    "clco": "2"
+  },
+  "accounts": {
+    "OpenStreetCam": {
+      "id": "alarobric",
+      "Total Photos": "0",
+      "Total Distance": "0 km"
+    },
+    "OSM Help": {
+      "id": "12772/alarobric",
+      "Reputation": "11"
+    },
+    "OSM Wiki": {
+      "id": "Alarobric",
+      "Editcount": "25"
+    },
+    "Github": {
+      "id": "alarobric",
+      "Contributions": "0"
+    },
+    "Mapillary": {
+      "id": "alarobric",
+      "Total Photos": "9698",
+      "Total Distance": "305.12 km"
+    }
+  },
+  "discussion": {
+    "dis_changesets": "0",
+    "com_changesets": "6",
+    "num_comments": "8",
+    "dis_responses": "0"
+  },
+  "calendar": [
+    {
+      "date": "2020-07-08",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-05",
+      "count": "4"
+    },
+    {
+      "date": "2021-03-01",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-15",
+      "count": "3"
+    }
+  ],
+  "recent": [
+    {
+      "country": "Canada",
+      "count": "3",
+      "code": "ca"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "Canada",
+      "rank": "555",
+      "code": "ca"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "iD editor",
+      "tmstmp": "2021-04-15",
+      "tag": "Resolved issues=8, Ignored warnings=2",
+      "trend": "",
+      "trendamount": 0
+    },
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-04-15",
+      "tag": "routing=82, tagging=25",
+      "trend": "down",
+      "trendamount": -6
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-04-15",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alarobric?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=35, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alarobric?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=43, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alarobric?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=571",
+      "trend": "down",
+      "trendamount": -69
+    }
+  ]
+}

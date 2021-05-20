@@ -1,0 +1,85 @@
+---
+title: 'Gathering OSM Profiles for Research '
+author: ''
+date: '2021-05-20'
+slug: gathering-osm-profiles-for-research
+categories:
+  - VGI
+tags:
+  - R
+  - VGI
+  - OSM
+  - openstreetmap
+  - profile
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-05-20T14:18:34+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+## Intro
+This blog elaborates the dataset published by Zoe Gardner (2020)'s paper [Quantifying gendered participation in OpenStreetMap: responding to theories of female (under) representation in crowdsourced mapping](https://link.springer.com/article/10.1007/s10708-019-10035-z).
+
+Zoe has conducted a survey of OSM users to understand the likelihood contribution of under-represented groups.
+She gathered 315 user's data with age, gender, nationality, country of residence, and degree.
+However, the problem with her survey data is that firstly, not all of the users can be browsed from the [Name Browser](https://hdyc.neis-one.org/), and secondly, there are plenty of information in the OSM web profile that hasn't be investigated in her paper. For example:
+
+* number of nodes, 
+* number of tags
+* type of tags
+* number of hours spent
+* weekdays/weekends of contribution.
+
+
+Since our overall goal is to compare OSM contribution by demographic groups (assuming that there is a low contribution in underrepresented groups), here is a preliminary dataset that we explored. We note that all profile data are accessible as per the OSM policy. 
+
+
+## Load library and fetch files
+Amongst multiple ways, we use two R packages `tidyjson` to read and analyse json files, and `tidyverse` for querying and further analysis.  
+
+```{r}
+library(tidyverse)
+library(tidyjson)
+```
+
+We found 30 files in the Contributors folder all ending with `json`. However, we want the files to be piled as a single file.
+So we use `purrr::map()` to query multiple json files and `reduce` with `bind_rows()`. We added id just to simplify the usernames.
+
+```{r warning=FALSE}
+# this should give you a character vector, with each file name represented by an entry
+filenames <- list.files("Contributors/", pattern="*.json", full.names=TRUE) 
+
+# Import data
+osm_json <-filenames %>% 
+  map(read_json) %>% 
+  reduce(bind_rows) %>% 
+  mutate(document.id = row_number())
+```
+
+Using `class()`, we realise that this file works as a tibble (known as rectangular dataframe with columns of info), and a json. But according to the order, this recognises as a json file.
+```{r}
+# Check data type
+class(osm_json)  
+```
+
+* We leave here a small note that we tidied our json files in order to be analysed smoothly. You can visit our [github page]() to see how they were cleaned.
+
+
+
+## Glance at our dataset
+
+```{r}
+osm_json %>%  
+  spread_all() %>% 
+  glimpse()
+```
+
+
+
+

@@ -1,0 +1,158 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "althio",
+    "uid": "2381194",
+    "since": "2014-10-06",
+    "traces": "0",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "25903564",
+    "f_tstamp": "2014-10-06",
+    "f_lon": "2.4005501",
+    "f_lat": "48.861831",
+    "l_id": "72875533",
+    "l_tstamp": "2019-07-31",
+    "l_lon": "2.37064305",
+    "l_lat": "48.8497035"
+  },
+  "nodes": {
+    "c": "33652",
+    "m": "16123",
+    "d": "2707",
+    "lm": "24197"
+  },
+  "ways": {
+    "c": "5624",
+    "m": "8999",
+    "d": "372",
+    "lm": "5207"
+  },
+  "waytags": {
+    "c_addr": "81",
+    "m_addr": "862",
+    "c_building": "3009",
+    "m_building": "1007",
+    "c_highway": "1954",
+    "m_highway": "7893",
+    "c_landuse": "155",
+    "m_landuse": "251",
+    "c_name": "365",
+    "m_name": "3031",
+    "c_natural": "359",
+    "m_natural": "696",
+    "c_waterway": "104",
+    "m_waterway": "84"
+  },
+  "relations": {
+    "c": "62",
+    "m": "267",
+    "d": "25",
+    "lm": "45"
+  },
+  "changesets": {
+    "no": "617",
+    "changes": "67831",
+    "max_gap_days": "515",
+    "mapping_days_year": "2014=45;2015=4;2016=18;2017=43;2018=24;2019=10",
+    "info": "617;614;360;35.46;28.00;217;140;170;89;1",
+    "editors": "JOSM=460;JOSM (Reverter)=3;Osmose=11;Potlatch=1;Vespucci=25;iD=110;maps.me=3;unknown=4",
+    "bboxs": "573;4.28;0.00",
+    "days": "30,134,74,94,123,116,46",
+    "hours": "6,1,2,1,0,0,4,15,25,46,52,39,35,64,79,56,43,35,15,8,19,18,29,25",
+    "": null
+  },
+  "countries": {
+    "countries": "Congo-Kinshasa=cd=43=18474;France=fr=482=17771;Mali=ml=19=14331;Guinea=gn=11=4375;Sierra Leone=sl=12=4100;South Sudan=ss=3=2617;Burkina Faso=bf=8=2022;Liberia=lr=2=1694;Nigeria=ng=2=1020;Uganda=ug=3=485;unknown=unknown=6=323;Chad=td=4=293;Republic of the Congo=cg=1=120;Italy=it=9=78;Philippines=ph=1=60;Luxembourg=lu=1=36;Netherlands=nl=2=16;Benin=bj=1=5;United States=us=1=5;Japan=jp=1=1;Syria=sy=1=1;Thailand=th=1=1;Russia=ru=1=1;Niger=ne=1=1;Hong Kong=hk=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "6",
+      "name": "78",
+      "shop": "27",
+      "addr:": "93",
+      "name:": "3",
+      "place": "9",
+      "sport": "5",
+      "amenity": "190",
+      "barrier": "88",
+      "highway": "115",
+      "leisure": "8",
+      "natural": "882",
+      "railway": "5",
+      "tourism": "4",
+      "man_made": "18",
+      "public_transport": "5"
+    },
+    "way_tags": {
+      "ref": "4",
+      "name": "230",
+      "shop": "1",
+      "addr:": "189",
+      "name:": "4",
+      "place": "4",
+      "sport": "32",
+      "amenity": "106",
+      "barrier": "246",
+      "highway": "2439",
+      "landuse": "152",
+      "leisure": "97",
+      "natural": "21",
+      "railway": "7",
+      "surface": "725",
+      "tourism": "8",
+      "boundary": "5",
+      "building": "2013",
+      "historic": "1",
+      "man_made": "20",
+      "waterway": "41",
+      "building:": "102"
+    },
+    "relation_tags": {
+      "ref": "1",
+      "name": "7",
+      "route": "1",
+      "amenity": "1",
+      "highway": "5",
+      "landuse": "5",
+      "leisure": "2",
+      "surface": "8",
+      "building": "8",
+      "building:": "4",
+      "restriction": "3",
+      "public_transport": "2"
+    }
+  },
+  "notes": {
+    "op": "12",
+    "co": "18",
+    "cl": "104",
+    "clco": "94"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "6",
+    "com_changesets": "45",
+    "num_comments": "58",
+    "dis_responses": "5"
+  },
+  "calendar": [],
+  "recent": [],
+  "ranks": [],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2020-10-03",
+      "tag": "routing=117, tagging=145",
+      "trend": "",
+      "trendamount": 0
+    }
+  ]
+}

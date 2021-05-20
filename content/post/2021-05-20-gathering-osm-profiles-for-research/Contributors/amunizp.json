@@ -1,0 +1,157 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "amunizp",
+    "uid": "5234013",
+    "since": "2017-01-31",
+    "traces": "1",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "https://www.gravatar.com/avatar/95823c1b04391bdf64f689100488864c.jpg?s=100&d=https%3A%2F%2Fwww.openstreetmap.org%2Fassets%2Favatar_large-54d681ddaf47c4181b05dbfae378dc0201b393bbad3ff0e68143c3d5f3880ace.png",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "45683827",
+    "f_tstamp": "2017-01-31",
+    "f_lon": "-0.2983392",
+    "f_lat": "51.447304",
+    "l_id": "97847008",
+    "l_tstamp": "2021-01-20",
+    "l_lon": "0.1352975",
+    "l_lat": "51.5845814"
+  },
+  "nodes": {
+    "c": "213",
+    "m": "38",
+    "d": "4",
+    "lm": "212"
+  },
+  "ways": {
+    "c": "31",
+    "m": "24",
+    "d": "1",
+    "lm": "25"
+  },
+  "waytags": {
+    "c_addr": "46",
+    "m_addr": "45",
+    "c_building": "37",
+    "m_building": "27",
+    "c_highway": "9",
+    "m_highway": "8",
+    "c_landuse": "3",
+    "m_landuse": "4",
+    "c_name": "20",
+    "m_name": "37",
+    "c_natural": "9",
+    "m_natural": "24",
+    "c_waterway": "0",
+    "m_waterway": "0"
+  },
+  "relations": {
+    "c": "0",
+    "m": "0",
+    "d": "0",
+    "lm": "0"
+  },
+  "changesets": {
+    "no": "30",
+    "changes": "311",
+    "max_gap_days": "805",
+    "mapping_days_year": "2017=6;2018=3;2020=4;2021=2",
+    "info": "30;30;24;63.07;38.50;21;6;2;1;0",
+    "editors": "JOSM=10;iD=20",
+    "bboxs": "17;0.00;0.00",
+    "days": "2,6,10,9,2,0,1",
+    "hours": "0,2,0,0,0,0,0,0,0,1,3,4,5,5,2,2,2,1,0,0,1,2,0,0",
+    "mapping_days": "15",
+    "review_requested": "3",
+    "comment_wordcount": "tree (11), added (7), survey (6), some (5), this (4)",
+    "hashtag_wordcount": ""
+  },
+  "countries": {
+    "countries": "United Kingdom=gb=29=311;unknown=unknown=1=0"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "name": "3",
+      "addr:": "3",
+      "amenity": "1",
+      "natural": "1",
+      "boundary": "1"
+    },
+    "way_tags": {
+      "name": "9",
+      "addr:": "23",
+      "amenity": "2",
+      "highway": "11",
+      "landuse": "4",
+      "building": "10",
+      "building:": "7"
+    },
+    "relation_tags": {}
+  },
+  "notes": {
+    "op": "4",
+    "co": "2",
+    "cl": "2",
+    "clco": "2"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "1",
+    "com_changesets": "1",
+    "num_comments": "1",
+    "dis_responses": "0"
+  },
+  "calendar": [
+    {
+      "date": "2020-07-21",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-07",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-20",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-02",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-20",
+      "count": "1"
+    }
+  ],
+  "recent": [],
+  "ranks": [],
+  "qa": [
+    {
+      "tool": "iD editor",
+      "tmstmp": "2021-01-20",
+      "tag": "Resolved issues=4",
+      "trend": "",
+      "trendamount": 0
+    },
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-01-20",
+      "tag": "tagging=1",
+      "trend": "",
+      "trendamount": 0
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-01-20",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/amunizp?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=0, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/amunizp?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=3, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/amunizp?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=9",
+      "trend": "up",
+      "trendamount": 5
+    }
+  ]
+}

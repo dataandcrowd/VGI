@@ -1,0 +1,540 @@
+﻿{
+  "publicprofile": "true",
+  "contributor": {
+    "name": "<0174",
+    "uid": "172147",
+    "since": "2009-09-14",
+    "traces": "204",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "https://www.openstreetmap.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0hGQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5bef9eb61d0f6ca348e98357b2d678cefd4d054a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVdscGFRPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--c67ff8b325b11c9385b9ac7632a848151439b65a/pak%20512%20b%C3%ADl%C3%A9%20pozad%C3%AD.png",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "2478231",
+    "f_tstamp": "2009-09-14",
+    "f_lon": "15.2053555",
+    "f_lat": "50.90506595",
+    "l_id": "104842849",
+    "l_tstamp": "2021-05-17",
+    "l_lon": "13.6855164",
+    "l_lat": "49.6288994"
+  },
+  "nodes": {
+    "c": "72737",
+    "m": "9264",
+    "d": "8653",
+    "lm": "53003"
+  },
+  "ways": {
+    "c": "8584",
+    "m": "5805",
+    "d": "729",
+    "lm": "5895"
+  },
+  "waytags": {
+    "c_addr": "5995",
+    "m_addr": "1500",
+    "c_building": "3307",
+    "m_building": "980",
+    "c_highway": "4093",
+    "m_highway": "4738",
+    "c_landuse": "1139",
+    "m_landuse": "255",
+    "c_name": "1197",
+    "m_name": "2618",
+    "c_natural": "159",
+    "m_natural": "82",
+    "c_waterway": "63",
+    "m_waterway": "178"
+  },
+  "relations": {
+    "c": "125",
+    "m": "909",
+    "d": "13",
+    "lm": "120"
+  },
+  "changesets": {
+    "no": "1268",
+    "changes": "106792",
+    "max_gap_days": "85",
+    "mapping_days_year": "2009=15;2010=81;2011=29;2012=23;2013=40;2014=56;2015=51;2016=72;2017=50;2018=44;2019=62;2020=91;2021=29",
+    "info": "1268;1268;800;30.29;25.50;385;255;454;174;0",
+    "editors": "JOSM=1061;Potlatch=3;StreetComplete=173;Vespucci=8;iD=22",
+    "bboxs": "1204;2.45;0.00",
+    "days": "303,168,124,188,92,140,253",
+    "hours": "0,0,0,0,0,0,19,16,37,41,71,32,34,27,114,104,112,107,214,221,94,23,2,0",
+    "mapping_days": "643",
+    "comment_wordcount": "maproulette (169), near (144), hiking (121), hotosm (107), project (83)",
+    "hashtag_wordcount": ""
+  },
+  "countries": {
+    "countries": "Czech Republic=cz=891=65064;Burkina Faso=bf=28=10644;Pakistan=pk=29=10380;China=cn=31=2892;Central African Republic=cf=8=1979;Poland=pl=8=1699;Norway=no=13=1609;United Republic of Tanzania=tz=6=1083;Nepal=np=4=973;Haiti=ht=3=938;Sri Lanka=lk=7=883;Macedonia=mk=4=786;India=in=6=774;Fiji=fj=3=641;Iceland=is=2=514;Finland=fi=17=510;Libya=ly=1=448;Kenya=ke=2=412;Congo-Kinshasa=cd=5=390;Zimbabwe=zw=4=374;Italy=it=38=356;Chile=cl=2=256;Liberia=lr=1=249;Ecuador=ec=2=235;Colombia=co=4=227;Germany=de=4=219;France=fr=24=204;Mozambique=mz=4=172;Romania=ro=10=166;Slovakia=sk=7=163;Chad=td=1=158;Ukraine=ua=9=155;Georgia=ge=4=108;Austria=at=5=107;Ghana=gh=3=102;Cameroon=cm=4=101;Japan=jp=1=84;Bulgaria=bg=1=78;United States=us=13=76;Nigeria=ng=1=67;Turkey=tr=3=65;Belarus=by=3=53;Philippines=ph=5=49;Syria=sy=1=43;Belgium=be=2=43;Republic of Kosovo=xk=2=35;Brazil=br=1=29;Bangladesh=bd=3=27;Lithuania=lt=1=25;Mali=ml=1=20;Switzerland=ch=3=17;Hungary=hu=1=16;Russia=ru=3=14;Cyprus=cy=1=10;Cambodia=kh=1=9;Bosnia and Herzegovina=ba=1=8;Canada=ca=3=8;unknown=unknown=8=7;Thailand=th=2=6;Sweden=se=1=6;Vietnam=vn=1=4;Bolivia=bo=1=4;Netherlands=nl=2=4;South Sudan=ss=1=3;Angola=ao=1=3;United Kingdom=gb=1=2;Spain=es=1=2;Australia=au=1=1;Peru=pe=1=1;Togo=tg=1=1;Martinique=mq=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "304",
+      "name": "651",
+      "shop": "36",
+      "addr:": "165",
+      "name:": "50",
+      "place": "8",
+      "power": "105",
+      "sport": "2",
+      "amenity": "247",
+      "barrier": "76",
+      "highway": "101",
+      "leisure": "17",
+      "natural": "88",
+      "railway": "10",
+      "tourism": "611",
+      "building": "90",
+      "historic": "86",
+      "man_made": "16",
+      "emergency": "1",
+      "public_transport": "16"
+    },
+    "way_tags": {
+      "ref": "136",
+      "name": "353",
+      "shop": "5",
+      "addr:": "25",
+      "name:": "11",
+      "place": "2",
+      "power": "11",
+      "route": "1",
+      "sport": "8",
+      "amenity": "36",
+      "barrier": "27",
+      "highway": "3330",
+      "landuse": "635",
+      "leisure": "22",
+      "natural": "66",
+      "railway": "27",
+      "surface": "1237",
+      "tourism": "1",
+      "boundary": "5",
+      "building": "1622",
+      "man_made": "13",
+      "waterway": "80",
+      "building:": "196",
+      "emergency": "3"
+    },
+    "relation_tags": {
+      "ref": "55",
+      "name": "41",
+      "name:": "4",
+      "route": "102",
+      "landuse": "3",
+      "boundary": "6",
+      "restriction": "5"
+    }
+  },
+  "notes": {
+    "op": "14",
+    "co": "2",
+    "cl": "7",
+    "clco": "7"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "3",
+    "com_changesets": "5",
+    "num_comments": "11",
+    "dis_responses": "3"
+  },
+  "calendar": [
+    {
+      "date": "2020-05-20",
+      "count": "1"
+    },
+    {
+      "date": "2020-05-25",
+      "count": "3"
+    },
+    {
+      "date": "2020-05-27",
+      "count": "2"
+    },
+    {
+      "date": "2020-05-30",
+      "count": "3"
+    },
+    {
+      "date": "2020-05-31",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-01",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-02",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-03",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-06",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-07",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-09",
+      "count": "5"
+    },
+    {
+      "date": "2020-06-10",
+      "count": "4"
+    },
+    {
+      "date": "2020-06-17",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-19",
+      "count": "2"
+    },
+    {
+      "date": "2020-06-20",
+      "count": "4"
+    },
+    {
+      "date": "2020-06-21",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-23",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-26",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-28",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-29",
+      "count": "5"
+    },
+    {
+      "date": "2020-07-04",
+      "count": "2"
+    },
+    {
+      "date": "2020-07-10",
+      "count": "1"
+    },
+    {
+      "date": "2020-07-18",
+      "count": "2"
+    },
+    {
+      "date": "2020-07-19",
+      "count": "3"
+    },
+    {
+      "date": "2020-08-08",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-09",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-19",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-30",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-31",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-04",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-09",
+      "count": "3"
+    },
+    {
+      "date": "2020-09-13",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-15",
+      "count": "3"
+    },
+    {
+      "date": "2020-09-26",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-30",
+      "count": "2"
+    },
+    {
+      "date": "2020-10-02",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-14",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-25",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-06",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-07",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-08",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-09",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-15",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-16",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-21",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-23",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-25",
+      "count": "22"
+    },
+    {
+      "date": "2020-11-29",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-03",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-04",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-05",
+      "count": "30"
+    },
+    {
+      "date": "2020-12-06",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-09",
+      "count": "19"
+    },
+    {
+      "date": "2020-12-12",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-13",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-16",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-19",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-27",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-31",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-02",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-10",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-12",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-18",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-30",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-20",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-26",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-28",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-06",
+      "count": "5"
+    },
+    {
+      "date": "2021-03-20",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-22",
+      "count": "25"
+    },
+    {
+      "date": "2021-03-24",
+      "count": "6"
+    },
+    {
+      "date": "2021-03-27",
+      "count": "3"
+    },
+    {
+      "date": "2021-04-01",
+      "count": "6"
+    },
+    {
+      "date": "2021-04-02",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-03",
+      "count": "3"
+    },
+    {
+      "date": "2021-04-04",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-10",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-14",
+      "count": "9"
+    },
+    {
+      "date": "2021-04-15",
+      "count": "12"
+    },
+    {
+      "date": "2021-04-16",
+      "count": "14"
+    },
+    {
+      "date": "2021-04-27",
+      "count": "3"
+    },
+    {
+      "date": "2021-04-28",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-02",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-08",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-14",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-17",
+      "count": "3"
+    }
+  ],
+  "recent": [
+    {
+      "country": "Czech Republic",
+      "count": "94",
+      "code": "cz"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "Czech Republic",
+      "rank": "93",
+      "code": "cz"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "iD editor",
+      "tmstmp": "2021-05-17",
+      "tag": "Resolved issues=2",
+      "trend": "",
+      "trendamount": 0
+    },
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-05-17",
+      "tag": "routing=99, tagging=349",
+      "trend": "down",
+      "trendamount": -1
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-05-17",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/<0174?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=20, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/<0174?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=54, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/<0174?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=620",
+      "trend": "up",
+      "trendamount": 2
+    }
+  ]
+}

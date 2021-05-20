@@ -1,0 +1,1240 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "AlaskaDave",
+    "uid": "473104",
+    "since": "2011-06-18",
+    "traces": "881",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "https://www.openstreetmap.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaWM2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b0034d855a1582cfb22f51edd9869dc83f47cb34/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVdscGFRPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--eebe711a4715314afd416ccd673530bbf8ac1b24/FB_thumb_200-200_(DSC00304).jpg",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "8478687",
+    "f_tstamp": "2011-06-18",
+    "f_lon": "-151.5782522",
+    "f_lat": "59.6682804",
+    "l_id": "104788151",
+    "l_tstamp": "2021-05-16",
+    "l_lon": "-123.0540879",
+    "l_lat": "44.046792"
+  },
+  "nodes": {
+    "c": "2756454",
+    "m": "713750",
+    "d": "559226",
+    "lm": "2834341"
+  },
+  "ways": {
+    "c": "91762",
+    "m": "94340",
+    "d": "21067",
+    "lm": "86065"
+  },
+  "waytags": {
+    "c_addr": "1864",
+    "m_addr": "4467",
+    "c_building": "14506",
+    "m_building": "3585",
+    "c_highway": "35913",
+    "m_highway": "59717",
+    "c_landuse": "5350",
+    "m_landuse": "2783",
+    "c_name": "35953",
+    "m_name": "113548",
+    "c_natural": "19387",
+    "m_natural": "11955",
+    "c_waterway": "10049",
+    "m_waterway": "11544"
+  },
+  "relations": {
+    "c": "2806",
+    "m": "5352",
+    "d": "134",
+    "lm": "2385"
+  },
+  "changesets": {
+    "no": "15080",
+    "changes": "4175676",
+    "max_gap_days": "321",
+    "mapping_days_year": "2011=2;2012=44;2013=301;2014=301;2015=312;2016=311;2017=319;2018=292;2019=204;2020=262;2021=85",
+    "info": "15080;15008;9724;40.15;35.00;1957;1172;5499;6401;51",
+    "editors": "Go Map!!=388;JOSM=13903;Level0=12;OsmAnd=81;Potlatch=680;iD=11;maps.me=5",
+    "bboxs": "14308;21.80;0.01",
+    "days": "2406,2317,2068,2220,2110,1849,2110",
+    "hours": "920,770,651,826,774,575,573,652,727,981,1190,781,911,1089,784,618,391,226,201,282,192,212,242,512",
+    "mapping_days": "2433",
+    "comment_wordcount": "edits (4235), additions (3703), details (2720), minor (2509), area (2339)",
+    "hashtag_wordcount": ""
+  },
+  "countries": {
+    "countries": "United States=us=7344=2835132;Thailand=th=6913=1258222;Laos=la=85=22636;Myanmar (Burma)=mm=60=22468;Canada=ca=36=10829;unknown=unknown=413=6154;Fiji=fj=12=5122;Turkey=tr=54=2980;Austria=at=41=1303;United Republic of Tanzania=tz=4=1085;New Zealand=nz=8=1080;Poland=pl=7=1035;Iceland=is=11=916;United Kingdom=gb=10=904;India=in=2=643;Germany=de=15=612;Guinea=gn=5=510;China=cn=4=490;Portugal=pt=2=415;Vietnam=vn=3=358;Liberia=lr=2=353;Japan=jp=3=318;Libya=ly=3=251;Zimbabwe=zw=2=243;Kazakhstan=kz=1=208;North Korea=kp=1=188;Zambia=zm=1=151;Algeria=dz=1=138;Norway=no=5=126;Iran=ir=2=125;Congo-Kinshasa=cd=1=112;Bangladesh=bd=1=111;Netherlands=nl=2=92;Cambodia=kh=5=84;Russia=ru=1=80;Namibia=na=1=51;Switzerland=ch=1=43;Northern Mariana Islands=mp=2=29;Solomon Islands=sb=1=18;Nepal=np=1=18;Australia=au=2=14;Cayman Islands=ky=1=6;Chile=cl=2=4;Mexico=mx=1=4;Greenland=gl=1=4;France=fr=1=3;Indonesia=id=2=2;Pitcairn Islands=pn=1=2;Trinidad and Tobago=tt=1=2;Serbia=rs=1=1;Italy=it=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "753",
+      "name": "4769",
+      "shop": "1187",
+      "addr:": "1217",
+      "name:": "3321",
+      "place": "978",
+      "power": "1811",
+      "sport": "12",
+      "amenity": "4734",
+      "barrier": "708",
+      "highway": "2169",
+      "landuse": "26",
+      "leisure": "232",
+      "natural": "2602",
+      "railway": "147",
+      "surface": "37",
+      "tourism": "981",
+      "boundary": "1",
+      "building": "1459",
+      "historic": "183",
+      "man_made": "831",
+      "waterway": "173",
+      "building:": "4",
+      "emergency": "146",
+      "public_transport": "4"
+    },
+    "way_tags": {
+      "ref": "2904",
+      "name": "17604",
+      "shop": "478",
+      "addr:": "1147",
+      "name:": "6045",
+      "place": "2064",
+      "power": "111",
+      "route": "11",
+      "sport": "669",
+      "amenity": "2870",
+      "barrier": "440",
+      "highway": "29220",
+      "landuse": "5150",
+      "leisure": "1347",
+      "natural": "15150",
+      "railway": "78",
+      "surface": "14455",
+      "tourism": "459",
+      "boundary": "202",
+      "building": "10941",
+      "historic": "129",
+      "man_made": "969",
+      "waterway": "9653",
+      "building:": "175",
+      "emergency": "7",
+      "public_transport": "8"
+    },
+    "relation_tags": {
+      "ref": "28",
+      "name": "670",
+      "shop": "1",
+      "addr:": "116",
+      "name:": "133",
+      "place": "96",
+      "route": "34",
+      "sport": "3",
+      "amenity": "23",
+      "highway": "7",
+      "landuse": "245",
+      "leisure": "51",
+      "natural": "1673",
+      "railway": "1",
+      "surface": "30",
+      "tourism": "9",
+      "boundary": "48",
+      "building": "46",
+      "historic": "5",
+      "man_made": "8",
+      "waterway": "153",
+      "building:": "3",
+      "restriction": "30"
+    }
+  },
+  "notes": {
+    "op": "24",
+    "co": "4",
+    "cl": "71",
+    "clco": "58"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "35",
+    "com_changesets": "123",
+    "num_comments": "203",
+    "dis_responses": "26"
+  },
+  "calendar": [
+    {
+      "date": "2020-05-17",
+      "count": "3"
+    },
+    {
+      "date": "2020-05-18",
+      "count": "3"
+    },
+    {
+      "date": "2020-05-19",
+      "count": "2"
+    },
+    {
+      "date": "2020-05-22",
+      "count": "1"
+    },
+    {
+      "date": "2020-05-23",
+      "count": "4"
+    },
+    {
+      "date": "2020-05-24",
+      "count": "9"
+    },
+    {
+      "date": "2020-05-25",
+      "count": "9"
+    },
+    {
+      "date": "2020-05-28",
+      "count": "2"
+    },
+    {
+      "date": "2020-05-29",
+      "count": "1"
+    },
+    {
+      "date": "2020-05-30",
+      "count": "27"
+    },
+    {
+      "date": "2020-05-31",
+      "count": "9"
+    },
+    {
+      "date": "2020-06-01",
+      "count": "7"
+    },
+    {
+      "date": "2020-06-02",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-03",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-04",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-05",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-06",
+      "count": "9"
+    },
+    {
+      "date": "2020-06-07",
+      "count": "6"
+    },
+    {
+      "date": "2020-06-09",
+      "count": "8"
+    },
+    {
+      "date": "2020-06-10",
+      "count": "1"
+    },
+    {
+      "date": "2020-06-11",
+      "count": "6"
+    },
+    {
+      "date": "2020-06-12",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-13",
+      "count": "8"
+    },
+    {
+      "date": "2020-06-14",
+      "count": "11"
+    },
+    {
+      "date": "2020-06-15",
+      "count": "4"
+    },
+    {
+      "date": "2020-06-16",
+      "count": "8"
+    },
+    {
+      "date": "2020-06-17",
+      "count": "10"
+    },
+    {
+      "date": "2020-06-18",
+      "count": "2"
+    },
+    {
+      "date": "2020-06-19",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-20",
+      "count": "2"
+    },
+    {
+      "date": "2020-06-21",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-22",
+      "count": "11"
+    },
+    {
+      "date": "2020-06-23",
+      "count": "4"
+    },
+    {
+      "date": "2020-06-24",
+      "count": "9"
+    },
+    {
+      "date": "2020-06-25",
+      "count": "2"
+    },
+    {
+      "date": "2020-06-26",
+      "count": "12"
+    },
+    {
+      "date": "2020-06-27",
+      "count": "11"
+    },
+    {
+      "date": "2020-06-28",
+      "count": "3"
+    },
+    {
+      "date": "2020-06-29",
+      "count": "14"
+    },
+    {
+      "date": "2020-06-30",
+      "count": "12"
+    },
+    {
+      "date": "2020-07-01",
+      "count": "12"
+    },
+    {
+      "date": "2020-07-02",
+      "count": "9"
+    },
+    {
+      "date": "2020-07-03",
+      "count": "5"
+    },
+    {
+      "date": "2020-07-04",
+      "count": "5"
+    },
+    {
+      "date": "2020-07-05",
+      "count": "11"
+    },
+    {
+      "date": "2020-07-06",
+      "count": "10"
+    },
+    {
+      "date": "2020-07-07",
+      "count": "3"
+    },
+    {
+      "date": "2020-07-08",
+      "count": "3"
+    },
+    {
+      "date": "2020-07-09",
+      "count": "1"
+    },
+    {
+      "date": "2020-07-10",
+      "count": "3"
+    },
+    {
+      "date": "2020-07-11",
+      "count": "8"
+    },
+    {
+      "date": "2020-07-12",
+      "count": "8"
+    },
+    {
+      "date": "2020-07-13",
+      "count": "11"
+    },
+    {
+      "date": "2020-07-14",
+      "count": "16"
+    },
+    {
+      "date": "2020-07-15",
+      "count": "7"
+    },
+    {
+      "date": "2020-07-16",
+      "count": "6"
+    },
+    {
+      "date": "2020-07-17",
+      "count": "4"
+    },
+    {
+      "date": "2020-07-18",
+      "count": "4"
+    },
+    {
+      "date": "2020-07-19",
+      "count": "15"
+    },
+    {
+      "date": "2020-07-20",
+      "count": "6"
+    },
+    {
+      "date": "2020-07-21",
+      "count": "7"
+    },
+    {
+      "date": "2020-07-22",
+      "count": "12"
+    },
+    {
+      "date": "2020-07-23",
+      "count": "10"
+    },
+    {
+      "date": "2020-07-24",
+      "count": "8"
+    },
+    {
+      "date": "2020-07-25",
+      "count": "11"
+    },
+    {
+      "date": "2020-07-26",
+      "count": "6"
+    },
+    {
+      "date": "2020-07-27",
+      "count": "7"
+    },
+    {
+      "date": "2020-07-28",
+      "count": "6"
+    },
+    {
+      "date": "2020-07-29",
+      "count": "7"
+    },
+    {
+      "date": "2020-07-30",
+      "count": "1"
+    },
+    {
+      "date": "2020-07-31",
+      "count": "13"
+    },
+    {
+      "date": "2020-08-01",
+      "count": "5"
+    },
+    {
+      "date": "2020-08-02",
+      "count": "5"
+    },
+    {
+      "date": "2020-08-03",
+      "count": "13"
+    },
+    {
+      "date": "2020-08-04",
+      "count": "2"
+    },
+    {
+      "date": "2020-08-05",
+      "count": "6"
+    },
+    {
+      "date": "2020-08-06",
+      "count": "3"
+    },
+    {
+      "date": "2020-08-07",
+      "count": "4"
+    },
+    {
+      "date": "2020-08-09",
+      "count": "5"
+    },
+    {
+      "date": "2020-08-10",
+      "count": "3"
+    },
+    {
+      "date": "2020-08-11",
+      "count": "2"
+    },
+    {
+      "date": "2020-08-12",
+      "count": "4"
+    },
+    {
+      "date": "2020-08-15",
+      "count": "2"
+    },
+    {
+      "date": "2020-08-18",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-19",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-20",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-21",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-22",
+      "count": "2"
+    },
+    {
+      "date": "2020-08-23",
+      "count": "2"
+    },
+    {
+      "date": "2020-08-25",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-26",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-27",
+      "count": "4"
+    },
+    {
+      "date": "2020-08-28",
+      "count": "4"
+    },
+    {
+      "date": "2020-08-29",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-01",
+      "count": "3"
+    },
+    {
+      "date": "2020-09-02",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-03",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-04",
+      "count": "4"
+    },
+    {
+      "date": "2020-09-06",
+      "count": "3"
+    },
+    {
+      "date": "2020-09-07",
+      "count": "3"
+    },
+    {
+      "date": "2020-09-09",
+      "count": "13"
+    },
+    {
+      "date": "2020-09-11",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-13",
+      "count": "5"
+    },
+    {
+      "date": "2020-09-14",
+      "count": "8"
+    },
+    {
+      "date": "2020-09-15",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-16",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-18",
+      "count": "3"
+    },
+    {
+      "date": "2020-09-20",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-21",
+      "count": "9"
+    },
+    {
+      "date": "2020-09-22",
+      "count": "13"
+    },
+    {
+      "date": "2020-09-23",
+      "count": "7"
+    },
+    {
+      "date": "2020-09-24",
+      "count": "14"
+    },
+    {
+      "date": "2020-09-27",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-28",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-01",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-02",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-03",
+      "count": "5"
+    },
+    {
+      "date": "2020-10-04",
+      "count": "8"
+    },
+    {
+      "date": "2020-10-06",
+      "count": "2"
+    },
+    {
+      "date": "2020-10-07",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-08",
+      "count": "3"
+    },
+    {
+      "date": "2020-10-09",
+      "count": "2"
+    },
+    {
+      "date": "2020-10-11",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-12",
+      "count": "2"
+    },
+    {
+      "date": "2020-10-13",
+      "count": "3"
+    },
+    {
+      "date": "2020-10-14",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-15",
+      "count": "5"
+    },
+    {
+      "date": "2020-10-18",
+      "count": "2"
+    },
+    {
+      "date": "2020-10-22",
+      "count": "3"
+    },
+    {
+      "date": "2020-10-23",
+      "count": "3"
+    },
+    {
+      "date": "2020-10-26",
+      "count": "2"
+    },
+    {
+      "date": "2020-10-28",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-02",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-03",
+      "count": "7"
+    },
+    {
+      "date": "2020-11-04",
+      "count": "4"
+    },
+    {
+      "date": "2020-11-07",
+      "count": "4"
+    },
+    {
+      "date": "2020-11-08",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-09",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-10",
+      "count": "4"
+    },
+    {
+      "date": "2020-11-12",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-14",
+      "count": "6"
+    },
+    {
+      "date": "2020-11-15",
+      "count": "3"
+    },
+    {
+      "date": "2020-11-20",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-22",
+      "count": "5"
+    },
+    {
+      "date": "2020-11-23",
+      "count": "4"
+    },
+    {
+      "date": "2020-11-25",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-26",
+      "count": "6"
+    },
+    {
+      "date": "2020-11-27",
+      "count": "7"
+    },
+    {
+      "date": "2020-11-28",
+      "count": "5"
+    },
+    {
+      "date": "2020-11-29",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-30",
+      "count": "6"
+    },
+    {
+      "date": "2020-12-02",
+      "count": "6"
+    },
+    {
+      "date": "2020-12-04",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-05",
+      "count": "8"
+    },
+    {
+      "date": "2020-12-06",
+      "count": "5"
+    },
+    {
+      "date": "2020-12-08",
+      "count": "6"
+    },
+    {
+      "date": "2020-12-09",
+      "count": "6"
+    },
+    {
+      "date": "2020-12-14",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-16",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-17",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-18",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-19",
+      "count": "4"
+    },
+    {
+      "date": "2020-12-20",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-21",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-25",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-26",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-27",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-28",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-29",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-31",
+      "count": "4"
+    },
+    {
+      "date": "2021-01-01",
+      "count": "4"
+    },
+    {
+      "date": "2021-01-02",
+      "count": "4"
+    },
+    {
+      "date": "2021-01-03",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-09",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-10",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-14",
+      "count": "3"
+    },
+    {
+      "date": "2021-01-18",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-19",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-20",
+      "count": "7"
+    },
+    {
+      "date": "2021-01-22",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-23",
+      "count": "8"
+    },
+    {
+      "date": "2021-01-24",
+      "count": "6"
+    },
+    {
+      "date": "2021-01-25",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-26",
+      "count": "6"
+    },
+    {
+      "date": "2021-01-27",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-28",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-29",
+      "count": "10"
+    },
+    {
+      "date": "2021-02-05",
+      "count": "3"
+    },
+    {
+      "date": "2021-02-06",
+      "count": "6"
+    },
+    {
+      "date": "2021-02-07",
+      "count": "11"
+    },
+    {
+      "date": "2021-02-12",
+      "count": "2"
+    },
+    {
+      "date": "2021-02-13",
+      "count": "4"
+    },
+    {
+      "date": "2021-02-14",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-15",
+      "count": "3"
+    },
+    {
+      "date": "2021-02-16",
+      "count": "12"
+    },
+    {
+      "date": "2021-02-17",
+      "count": "13"
+    },
+    {
+      "date": "2021-02-18",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-22",
+      "count": "4"
+    },
+    {
+      "date": "2021-02-23",
+      "count": "7"
+    },
+    {
+      "date": "2021-02-24",
+      "count": "2"
+    },
+    {
+      "date": "2021-02-25",
+      "count": "11"
+    },
+    {
+      "date": "2021-02-26",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-27",
+      "count": "3"
+    },
+    {
+      "date": "2021-02-28",
+      "count": "10"
+    },
+    {
+      "date": "2021-03-01",
+      "count": "6"
+    },
+    {
+      "date": "2021-03-02",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-04",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-06",
+      "count": "5"
+    },
+    {
+      "date": "2021-03-07",
+      "count": "4"
+    },
+    {
+      "date": "2021-03-10",
+      "count": "3"
+    },
+    {
+      "date": "2021-03-11",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-13",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-14",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-15",
+      "count": "3"
+    },
+    {
+      "date": "2021-03-17",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-19",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-20",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-21",
+      "count": "3"
+    },
+    {
+      "date": "2021-03-22",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-28",
+      "count": "5"
+    },
+    {
+      "date": "2021-03-29",
+      "count": "9"
+    },
+    {
+      "date": "2021-03-30",
+      "count": "12"
+    },
+    {
+      "date": "2021-03-31",
+      "count": "6"
+    },
+    {
+      "date": "2021-04-02",
+      "count": "7"
+    },
+    {
+      "date": "2021-04-03",
+      "count": "5"
+    },
+    {
+      "date": "2021-04-04",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-07",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-08",
+      "count": "2"
+    },
+    {
+      "date": "2021-04-09",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-16",
+      "count": "2"
+    },
+    {
+      "date": "2021-04-17",
+      "count": "5"
+    },
+    {
+      "date": "2021-04-19",
+      "count": "3"
+    },
+    {
+      "date": "2021-04-23",
+      "count": "2"
+    },
+    {
+      "date": "2021-04-24",
+      "count": "4"
+    },
+    {
+      "date": "2021-04-25",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-27",
+      "count": "2"
+    },
+    {
+      "date": "2021-04-28",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-29",
+      "count": "6"
+    },
+    {
+      "date": "2021-04-30",
+      "count": "3"
+    },
+    {
+      "date": "2021-05-01",
+      "count": "2"
+    },
+    {
+      "date": "2021-05-04",
+      "count": "5"
+    },
+    {
+      "date": "2021-05-05",
+      "count": "5"
+    },
+    {
+      "date": "2021-05-07",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-09",
+      "count": "2"
+    },
+    {
+      "date": "2021-05-10",
+      "count": "4"
+    },
+    {
+      "date": "2021-05-11",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-12",
+      "count": "7"
+    },
+    {
+      "date": "2021-05-13",
+      "count": "4"
+    },
+    {
+      "date": "2021-05-14",
+      "count": "2"
+    },
+    {
+      "date": "2021-05-15",
+      "count": "4"
+    },
+    {
+      "date": "2021-05-16",
+      "count": "2"
+    }
+  ],
+  "recent": [
+    {
+      "country": "United States",
+      "count": "92",
+      "code": "us"
+    },
+    {
+      "country": "Thailand",
+      "count": "30",
+      "code": "th"
+    },
+    {
+      "country": "Poland",
+      "count": "2",
+      "code": "pl"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "Kazakhstan",
+      "rank": "83",
+      "code": "kz"
+    },
+    {
+      "country": "Thailand",
+      "rank": "122",
+      "code": "th"
+    },
+    {
+      "country": "United States",
+      "rank": "130",
+      "code": "us"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-05-16",
+      "tag": "routing=2112, tagging=709",
+      "trend": "up",
+      "trendamount": 3
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-05-16",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/AlaskaDave?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=20, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/AlaskaDave?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=13, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/AlaskaDave?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=360",
+      "trend": "",
+      "trendamount": 0
+    }
+  ]
+}

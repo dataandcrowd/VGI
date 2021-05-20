@@ -1,0 +1,246 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "Athalis",
+    "uid": "2540799",
+    "since": "2014-12-27",
+    "traces": "59",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "27737048",
+    "f_tstamp": "2014-12-27",
+    "f_lon": "8.88556495",
+    "f_lat": "50.0262869",
+    "l_id": "103964939",
+    "l_tstamp": "2021-05-01",
+    "l_lon": "8.6375209",
+    "l_lat": "49.868391"
+  },
+  "nodes": {
+    "c": "477123",
+    "m": "211899",
+    "d": "32274",
+    "lm": "601302"
+  },
+  "ways": {
+    "c": "62359",
+    "m": "39725",
+    "d": "5998",
+    "lm": "72918"
+  },
+  "waytags": {
+    "c_addr": "9639",
+    "m_addr": "16625",
+    "c_building": "36985",
+    "m_building": "11703",
+    "c_highway": "15282",
+    "m_highway": "24668",
+    "c_landuse": "2403",
+    "m_landuse": "901",
+    "c_name": "4629",
+    "m_name": "14970",
+    "c_natural": "930",
+    "m_natural": "707",
+    "c_waterway": "4239",
+    "m_waterway": "2525"
+  },
+  "relations": {
+    "c": "150",
+    "m": "1038",
+    "d": "78",
+    "lm": "243"
+  },
+  "changesets": {
+    "no": "6392",
+    "changes": "832094",
+    "max_gap_days": "187",
+    "mapping_days_year": "2014=1;2015=129;2016=208;2017=206;2018=210;2019=81;2020=14;2021=2",
+    "info": "6392;6359;3475;63.28;53.00;1349;1154;2600;1282;7",
+    "editors": "JOSM=5600;JOSM (Reverter)=30;Level0=2;OsmAnd=1;Potlatch=1;Rosemary=2;StreetComplete=12;Vespucci=412;iD=321;maps.me=5;unknown=5",
+    "bboxs": "6058;0.44;0.00",
+    "days": "1129,971,488,835,919,886,1164",
+    "hours": "173,104,27,5,3,14,33,112,243,307,410,386,329,226,235,316,375,411,312,391,521,614,549,296",
+    "mapping_days": "851",
+    "review_requested": "7",
+    "comment_wordcount": "project (2834), hotosm (2223), road (1544), osmus (1154), josm (1059)",
+    "hashtag_wordcount": "#osmin (96), #hotosm-project-4986 (77), #osmus (53), #cycloneidai (38), #missingmaps (34)"
+  },
+  "countries": {
+    "countries": "Mozambique=mz=791=311720;South Sudan=ss=284=146354;Germany=de=2190=80613;Puerto Rico=pr=674=62140;Ecuador=ec=214=28155;United States=us=562=27703;Afghanistan=af=163=20683;Japan=jp=74=15514;Madagascar=mg=100=12899;India=in=129=12575;Mexico=mx=79=11048;Bangladesh=bd=88=10501;Haiti=ht=114=10030;Tajikistan=tj=62=9074;Malawi=mw=41=8645;Guinea=gn=28=7388;United Republic of Tanzania=tz=134=6277;Congo-Kinshasa=cd=42=6020;Togo=tg=19=5425;Iran=ir=73=5095;Sri Lanka=lk=59=5055;Peru=pe=45=4717;Bolivia=bo=98=3547;Zimbabwe=zw=13=3371;Iraq=iq=69=3062;Rwanda=rw=6=2610;Tonga=to=63=2348;Uganda=ug=18=1207;Austria=at=66=1146;Georgia=ge=1=1106;Kenya=ke=6=1058;Zambia=zm=1=949;unknown=unknown=11=748;Republic of the Congo=cg=4=612;Botswana=bw=6=491;Spain=es=16=487;Central African Republic=cf=5=451;Romania=ro=10=344;Syria=sy=3=276;Nigeria=ng=1=219;Chad=td=1=134;Nepal=np=2=118;Sweden=se=5=53;Russia=ru=4=48;Switzerland=ch=10=27;South Korea=kr=2=22;Swaziland=sz=1=20;Belarus=by=1=3;Mongolia=mn=1=3;Thailand=th=1=1;Armenia=am=1=1;Cameroon=cm=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "47",
+      "name": "639",
+      "shop": "206",
+      "addr:": "9360",
+      "name:": "6",
+      "place": "19",
+      "power": "4088",
+      "sport": "10",
+      "amenity": "681",
+      "barrier": "355",
+      "highway": "1165",
+      "leisure": "39",
+      "natural": "265",
+      "railway": "267",
+      "surface": "4",
+      "tourism": "64",
+      "building": "18",
+      "historic": "8",
+      "man_made": "134",
+      "waterway": "110",
+      "building:": "5",
+      "emergency": "10",
+      "public_transport": "75"
+    },
+    "way_tags": {
+      "ref": "1216",
+      "name": "3455",
+      "shop": "32",
+      "addr:": "10333",
+      "name:": "102",
+      "place": "41",
+      "power": "153",
+      "sport": "31",
+      "amenity": "393",
+      "barrier": "2322",
+      "highway": "17906",
+      "landuse": "2338",
+      "leisure": "321",
+      "natural": "837",
+      "railway": "115",
+      "surface": "4264",
+      "tourism": "12",
+      "boundary": "27",
+      "building": "42816",
+      "historic": "3",
+      "man_made": "212",
+      "waterway": "4359",
+      "building:": "1713",
+      "emergency": "4",
+      "restriction": "1",
+      "public_transport": "6"
+    },
+    "relation_tags": {
+      "ref": "7",
+      "name": "35",
+      "addr:": "15",
+      "name:": "3",
+      "place": "2",
+      "route": "7",
+      "sport": "2",
+      "highway": "4",
+      "landuse": "16",
+      "leisure": "4",
+      "natural": "38",
+      "boundary": "10",
+      "building": "20",
+      "waterway": "22",
+      "building:": "1",
+      "restriction": "97",
+      "public_transport": "7"
+    }
+  },
+  "notes": {
+    "op": "68",
+    "co": "68",
+    "cl": "99",
+    "clco": "98"
+  },
+  "accounts": {
+    "OSM Wiki": {
+      "id": "Athalis",
+      "Editcount": "22"
+    }
+  },
+  "discussion": {
+    "dis_changesets": "31",
+    "com_changesets": "144",
+    "num_comments": "182",
+    "dis_responses": "4"
+  },
+  "calendar": [
+    {
+      "date": "2020-07-12",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-05",
+      "count": "5"
+    },
+    {
+      "date": "2020-08-23",
+      "count": "5"
+    },
+    {
+      "date": "2020-09-05",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-05",
+      "count": "5"
+    },
+    {
+      "date": "2020-10-25",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-22",
+      "count": "5"
+    },
+    {
+      "date": "2020-11-23",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-13",
+      "count": "4"
+    },
+    {
+      "date": "2021-01-17",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-01",
+      "count": "3"
+    }
+  ],
+  "recent": [
+    {
+      "country": "Germany",
+      "count": "3",
+      "code": "de"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "Germany",
+      "rank": "9198",
+      "code": "de"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-05-01",
+      "tag": "routing=893, tagging=1104",
+      "trend": "down",
+      "trendamount": -35
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-05-01",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Athalis?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=132, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Athalis?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=484, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Athalis?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=2877",
+      "trend": "down",
+      "trendamount": -52
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "andrewblack",
+    "uid": "12624",
+    "since": "2007-08-29",
+    "traces": "0",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "15413294",
+    "f_tstamp": "2013-03-18",
+    "f_lon": "-0.09161125",
+    "f_lat": "51.50687145",
+    "l_id": "102359164",
+    "l_tstamp": "2021-04-05",
+    "l_lon": "-0.0803232",
+    "l_lat": "51.4592708"
+  },
+  "nodes": {
+    "c": "61",
+    "m": "85",
+    "d": "61",
+    "lm": "79"
+  },
+  "ways": {
+    "c": "9",
+    "m": "534",
+    "d": "3",
+    "lm": "277"
+  },
+  "waytags": {
+    "c_addr": "36",
+    "m_addr": "1329",
+    "c_building": "3",
+    "m_building": "457",
+    "c_highway": "0",
+    "m_highway": "39",
+    "c_landuse": "1",
+    "m_landuse": "13",
+    "c_name": "27",
+    "m_name": "665",
+    "c_natural": "0",
+    "m_natural": "2",
+    "c_waterway": "0",
+    "m_waterway": "0"
+  },
+  "relations": {
+    "c": "0",
+    "m": "9",
+    "d": "0",
+    "lm": "3"
+  },
+  "changesets": {
+    "no": "466",
+    "changes": "771",
+    "max_gap_days": "429",
+    "mapping_days_year": "2013=2;2014=8;2016=5;2017=12;2018=109;2019=63;2020=10;2021=4",
+    "info": "466;464;319;35.45;28.00;451;14;1;0;0",
+    "editors": "JOSM=41;Osmose=1;Potlatch=1;Vespucci=12;iD=405;unknown=6",
+    "bboxs": "390;0.00;0.00",
+    "days": "44,65,59,66,69,113,50",
+    "hours": "46,21,18,10,4,3,5,3,13,11,8,11,4,14,18,19,21,14,11,31,28,52,57,44",
+    "mapping_days": "213",
+    "comment_wordcount": "fhrs (185), postcode (54), update (44), from (43), denomination (42)",
+    "hashtag_wordcount": ""
+  },
+  "countries": {
+    "countries": "United Kingdom=gb=466=771"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "name": "34",
+      "shop": "5",
+      "addr:": "85",
+      "name:": "2",
+      "place": "1",
+      "amenity": "28",
+      "barrier": "1",
+      "leisure": "1",
+      "building": "1"
+    },
+    "way_tags": {
+      "name": "212",
+      "shop": "81",
+      "addr:": "650",
+      "power": "1",
+      "sport": "1",
+      "amenity": "129",
+      "barrier": "1",
+      "highway": "17",
+      "landuse": "6",
+      "leisure": "2",
+      "surface": "5",
+      "building": "239",
+      "building:": "3"
+    },
+    "relation_tags": {
+      "name": "3",
+      "addr:": "6",
+      "name:": "2",
+      "tourism": "1",
+      "building": "2"
+    }
+  },
+  "notes": {
+    "op": "38",
+    "co": "24",
+    "cl": "57",
+    "clco": "50"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "0",
+    "com_changesets": "2",
+    "num_comments": "2",
+    "dis_responses": "0"
+  },
+  "calendar": [
+    {
+      "date": "2020-08-12",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-07",
+      "count": "1"
+    },
+    {
+      "date": "2020-10-19",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-06",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-12",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-16",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-05",
+      "count": "1"
+    }
+  ],
+  "recent": [
+    {
+      "country": "United Kingdom",
+      "count": "1",
+      "code": "gb"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "United Kingdom",
+      "rank": "2945",
+      "code": "gb"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "iD editor",
+      "tmstmp": "2021-04-06",
+      "tag": "Resolved issues=2, Ignored warnings=6",
+      "trend": "",
+      "trendamount": 0
+    },
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-04-06",
+      "tag": "tagging=10",
+      "trend": "",
+      "trendamount": 0
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-04-06",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/andrewblack?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=0, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/andrewblack?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=2, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/andrewblack?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=35",
+      "trend": "down",
+      "trendamount": -11
+    }
+  ]
+}

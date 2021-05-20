@@ -1,0 +1,134 @@
+{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "24dakenlo",
+    "uid": "3354215",
+    "since": "2015-11-02",
+    "traces": "0",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "35097181",
+    "f_tstamp": "2015-11-05",
+    "f_lon": "140.10171715",
+    "f_lat": "36.13571635",
+    "l_id": "49221183",
+    "l_tstamp": "2017-06-03",
+    "l_lon": "139.49525065",
+    "l_lat": "36.76338355"
+  },
+  "nodes": {
+    "c": "11897",
+    "m": "4090",
+    "d": "5777",
+    "lm": "11554"
+  },
+  "ways": {
+    "c": "707",
+    "m": "808",
+    "d": "107",
+    "lm": "521"
+  },
+  "waytags": {
+    "c_addr": "0",
+    "m_addr": "0",
+    "c_building": "104",
+    "m_building": "11",
+    "c_highway": "349",
+    "m_highway": "697",
+    "c_landuse": "44",
+    "m_landuse": "9",
+    "c_name": "61",
+    "m_name": "95",
+    "c_natural": "186",
+    "m_natural": "71",
+    "c_waterway": "0",
+    "m_waterway": "3"
+  },
+  "relations": {
+    "c": "2",
+    "m": "3",
+    "d": "0",
+    "lm": "1"
+  },
+  "changesets": {
+    "no": "99",
+    "changes": "23391",
+    "max_gap_days": "446",
+    "mapping_days_year": "2015=8;2016=1;2017=14",
+    "info": "99;92;34;20.42;22.00;17;9;40;33;0",
+    "editors": "JOSM=93;iD=6",
+    "bboxs": "91;0.12;0.00",
+    "days": "23,7,2,2,10,2,53",
+    "hours": "1,7,0,0,0,3,4,7,18,5,3,2,7,14,12,13,0,0,0,0,0,0,3,0",
+    "": null
+  },
+  "countries": {
+    "countries": "Japan=jp=98=23351;Thailand=th=1=40"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "name": "32",
+      "name:": "9",
+      "place": "3",
+      "amenity": "73",
+      "barrier": "1",
+      "highway": "1",
+      "leisure": "5",
+      "natural": "4",
+      "tourism": "42",
+      "historic": "5",
+      "emergency": "4"
+    },
+    "way_tags": {
+      "name": "5",
+      "name:": "2",
+      "power": "1",
+      "sport": "4",
+      "amenity": "2",
+      "highway": "245",
+      "landuse": "28",
+      "leisure": "9",
+      "natural": "150",
+      "tourism": "1",
+      "boundary": "1",
+      "building": "76",
+      "waterway": "1",
+      "building:": "1"
+    },
+    "relation_tags": {
+      "natural": "1"
+    }
+  },
+  "notes": {
+    "op": "0",
+    "co": "0",
+    "cl": "0",
+    "clco": "0"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "0",
+    "com_changesets": "0",
+    "num_comments": "0",
+    "dis_responses": "0"
+  },
+  "calendar": [],
+  "recent": [],
+  "ranks": [],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2020-10-03",
+      "tag": "routing=10, tagging=5",
+      "trend": "",
+      "trendamount": 0
+    }
+  ]
+}

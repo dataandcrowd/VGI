@@ -1,0 +1,198 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "Alexander-II",
+    "uid": "3580412",
+    "since": "2016-01-30",
+    "traces": "24",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "https://www.openstreetmap.org/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL0o5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--faf6728adbe5c020b56db6b5c1c1ca8f3e7b31dc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lOTVRBd2VERXdNRDRHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--efdc66963555b7419037018ba117eb1fea762dc5/Confusion_of_Tongues1.png",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "36902120",
+    "f_tstamp": "2016-01-30",
+    "f_lon": "37.56601165",
+    "f_lat": "55.7328195",
+    "l_id": "88838556",
+    "l_tstamp": "2020-08-02",
+    "l_lon": "37.4905171",
+    "l_lat": "54.16731965"
+  },
+  "nodes": {
+    "c": "79065",
+    "m": "89191",
+    "d": "18162",
+    "lm": "118287"
+  },
+  "ways": {
+    "c": "13471",
+    "m": "63688",
+    "d": "2937",
+    "lm": "30061"
+  },
+  "waytags": {
+    "c_addr": "2216",
+    "m_addr": "36419",
+    "c_building": "4873",
+    "m_building": "25358",
+    "c_highway": "6397",
+    "m_highway": "43100",
+    "c_landuse": "426",
+    "m_landuse": "1341",
+    "c_name": "2164",
+    "m_name": "112090",
+    "c_natural": "10214",
+    "m_natural": "1580",
+    "c_waterway": "178",
+    "m_waterway": "296"
+  },
+  "relations": {
+    "c": "2045",
+    "m": "3293",
+    "d": "398",
+    "lm": "2566"
+  },
+  "changesets": {
+    "no": "1558",
+    "changes": "272250",
+    "max_gap_days": "314",
+    "mapping_days_year": "2016=56;2017=269;2018=127;2019=10;2020=1",
+    "info": "1558;1510;1249;45.21;37.00;595;182;426;354;1",
+    "editors": "JOSM=1014;JOSM (Reverter)=61;Level0=17;RevertUI=113;iD=175;maps.me=176;unknown=2",
+    "bboxs": "1301;80.02;0.00",
+    "days": "245,218,196,221,233,206,239",
+    "hours": "64,64,63,57,77,79,50,41,46,50,58,69,70,53,74,69,103,82,72,60,72,50,75,60",
+    "mapping_days": "463",
+    "review_requested": "3",
+    "comment_wordcount": "created (96), name (93), vending (65), shop (39), updated (35)",
+    "hashtag_wordcount": ""
+  },
+  "countries": {
+    "countries": "Russia=ru=1487=268395;Belarus=by=5=1680;Ukraine=ua=8=942;unknown=unknown=25=329;Latvia=lv=1=185;Moldova=md=3=184;Turkey=tr=2=163;Algeria=dz=1=146;Germany=de=6=111;Uzbekistan=uz=1=44;United States=us=2=17;Turkmenistan=tm=1=13;France=fr=4=11;Mali=ml=1=8;Italy=it=2=5;Pakistan=pk=1=4;China=cn=1=3;Poland=pl=1=3;Austria=at=1=2;Japan=jp=1=1;Georgia=ge=1=1;Bulgaria=bg=1=1;Greece=gr=1=1;Slovenia=si=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "1925",
+      "name": "3760",
+      "shop": "1984",
+      "addr:": "2269",
+      "name:": "2376",
+      "place": "11",
+      "power": "229",
+      "sport": "39",
+      "amenity": "5433",
+      "barrier": "1057",
+      "highway": "1623",
+      "landuse": "1",
+      "leisure": "156",
+      "natural": "9104",
+      "railway": "938",
+      "surface": "7",
+      "tourism": "354",
+      "building": "119",
+      "historic": "445",
+      "man_made": "550",
+      "waterway": "2",
+      "building:": "104",
+      "emergency": "46",
+      "public_transport": "163"
+    },
+    "way_tags": {
+      "ref": "367",
+      "name": "6070",
+      "shop": "241",
+      "addr:": "8706",
+      "name:": "905",
+      "place": "111",
+      "power": "648",
+      "sport": "269",
+      "amenity": "1707",
+      "barrier": "2455",
+      "highway": "12802",
+      "landuse": "459",
+      "leisure": "881",
+      "natural": "524",
+      "railway": "449",
+      "surface": "6454",
+      "tourism": "44",
+      "building": "6557",
+      "historic": "35",
+      "man_made": "302",
+      "waterway": "197",
+      "building:": "4855",
+      "emergency": "36",
+      "public_transport": "190"
+    },
+    "relation_tags": {
+      "ref": "89",
+      "name": "524",
+      "shop": "16",
+      "addr:": "1287",
+      "name:": "88",
+      "place": "17",
+      "power": "17",
+      "route": "12",
+      "sport": "150",
+      "amenity": "266",
+      "barrier": "17",
+      "highway": "37",
+      "landuse": "258",
+      "leisure": "257",
+      "natural": "109",
+      "railway": "88",
+      "surface": "128",
+      "tourism": "17",
+      "boundary": "4",
+      "building": "620",
+      "historic": "9",
+      "man_made": "36",
+      "waterway": "4",
+      "building:": "1523",
+      "emergency": "2",
+      "restriction": "90",
+      "public_transport": "127"
+    }
+  },
+  "notes": {
+    "op": "43",
+    "co": "6",
+    "cl": "13",
+    "clco": "8"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "53",
+    "com_changesets": "577",
+    "num_comments": "752",
+    "dis_responses": "37"
+  },
+  "calendar": [
+    {
+      "date": "2020-08-02",
+      "count": "1"
+    }
+  ],
+  "recent": [],
+  "ranks": [],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2020-10-03",
+      "tag": "routing=662, tagging=538, geometry=1",
+      "trend": "",
+      "trendamount": 0
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2020-08-02",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Alexander-II?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=252, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Alexander-II?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=806, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Alexander-II?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=2791",
+      "trend": "",
+      "trendamount": ""
+    }
+  ]
+}

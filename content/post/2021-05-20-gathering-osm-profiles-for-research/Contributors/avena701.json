@@ -1,0 +1,226 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "avena701",
+    "uid": "1715819",
+    "since": "2013-08-16",
+    "traces": "15",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "17371595",
+    "f_tstamp": "2013-08-16",
+    "f_lon": "18.96922995",
+    "f_lat": "43.3647111",
+    "l_id": "104756616",
+    "l_tstamp": "2021-05-16",
+    "l_lon": "14.63801635",
+    "l_lat": "51.5057386"
+  },
+  "nodes": {
+    "c": "104164",
+    "m": "18474",
+    "d": "38322",
+    "lm": "62566"
+  },
+  "ways": {
+    "c": "10516",
+    "m": "10205",
+    "d": "464",
+    "lm": "6371"
+  },
+  "waytags": {
+    "c_addr": "846",
+    "m_addr": "2623",
+    "c_building": "3425",
+    "m_building": "750",
+    "c_highway": "6095",
+    "m_highway": "9190",
+    "c_landuse": "542",
+    "m_landuse": "223",
+    "c_name": "1253",
+    "m_name": "9883",
+    "c_natural": "281",
+    "m_natural": "129",
+    "c_waterway": "389",
+    "m_waterway": "176"
+  },
+  "relations": {
+    "c": "99",
+    "m": "609",
+    "d": "43",
+    "lm": "43"
+  },
+  "changesets": {
+    "no": "1780",
+    "changes": "182896",
+    "max_gap_days": "174",
+    "mapping_days_year": "2013=73;2014=97;2015=47;2016=51;2017=34;2018=18;2019=12;2020=5;2021=5",
+    "info": "1780;1779;1195;38.35;29.00;620;340;574;243;3",
+    "editors": "JOSM=1659;JOSM (Reverter)=8;OsmAnd=2;Potlatch=4;Vespucci=20;iD=83",
+    "bboxs": "1514;0.15;0.00",
+    "days": "368,203,245,149,230,276,309",
+    "hours": "0,0,0,0,0,19,28,51,85,132,101,73,71,100,108,121,122,98,106,134,188,190,52,1",
+    "mapping_days": "342",
+    "comment_wordcount": "from (193), bing (167), surface (136), roads (107), hausnummer (97)",
+    "hashtag_wordcount": ""
+  },
+  "countries": {
+    "countries": "Bosnia and Herzegovina=ba=88=47190;Ukraine=ua=148=39899;Romania=ro=16=22933;Germany=de=994=19236;Serbia=rs=48=12017;Denmark=dk=204=11592;Montenegro=me=28=11466;Albania=al=8=2982;Sweden=se=37=2703;Finland=fi=11=2331;Greece=gr=15=2255;Republic of Kosovo=xk=5=1550;Czech Republic=cz=42=1438;Croatia=hr=11=1335;Moldova=md=2=1203;Poland=pl=38=804;Norway=no=10=563;Macedonia=mk=6=443;Slovakia=sk=3=323;Belgium=be=12=291;Italy=it=4=206;Netherlands=nl=9=85;Switzerland=ch=2=24;unknown=unknown=35=15;Austria=at=4=12"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "6",
+      "name": "158",
+      "shop": "180",
+      "addr:": "407",
+      "name:": "12",
+      "place": "6",
+      "power": "15",
+      "sport": "1",
+      "amenity": "292",
+      "barrier": "134",
+      "highway": "790",
+      "leisure": "8",
+      "natural": "14",
+      "railway": "27",
+      "surface": "8",
+      "tourism": "114",
+      "building": "2",
+      "historic": "3",
+      "man_made": "22",
+      "waterway": "3",
+      "emergency": "1",
+      "public_transport": "5"
+    },
+    "way_tags": {
+      "ref": "226",
+      "name": "525",
+      "shop": "7",
+      "addr:": "125",
+      "name:": "115",
+      "power": "6",
+      "sport": "3",
+      "amenity": "88",
+      "barrier": "56",
+      "highway": "3103",
+      "landuse": "331",
+      "leisure": "25",
+      "natural": "190",
+      "railway": "29",
+      "surface": "1060",
+      "tourism": "18",
+      "building": "2261",
+      "man_made": "15",
+      "waterway": "260",
+      "building:": "5",
+      "emergency": "2",
+      "public_transport": "3"
+    },
+    "relation_tags": {
+      "ref": "5",
+      "name": "10",
+      "name:": "2",
+      "place": "1",
+      "route": "7",
+      "amenity": "1",
+      "landuse": "11",
+      "leisure": "1",
+      "natural": "11",
+      "building": "2",
+      "restriction": "6",
+      "public_transport": "1"
+    }
+  },
+  "notes": {
+    "op": "197",
+    "co": "112",
+    "cl": "312",
+    "clco": "308"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "6",
+    "com_changesets": "8",
+    "num_comments": "10",
+    "dis_responses": "4"
+  },
+  "calendar": [
+    {
+      "date": "2020-05-23",
+      "count": "8"
+    },
+    {
+      "date": "2020-05-24",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-16",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-21",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-27",
+      "count": "2"
+    },
+    {
+      "date": "2021-01-10",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-30",
+      "count": "4"
+    },
+    {
+      "date": "2021-02-05",
+      "count": "2"
+    },
+    {
+      "date": "2021-02-06",
+      "count": "2"
+    },
+    {
+      "date": "2021-05-16",
+      "count": "1"
+    }
+  ],
+  "recent": [
+    {
+      "country": "Germany",
+      "count": "1",
+      "code": "de"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "Germany",
+      "rank": "8207",
+      "code": "de"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-05-16",
+      "tag": "routing=98, tagging=87",
+      "trend": "down",
+      "trendamount": -19
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-05-16",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/avena701?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=11, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/avena701?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=22, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/avena701?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=171",
+      "trend": "down",
+      "trendamount": -11
+    }
+  ]
+}

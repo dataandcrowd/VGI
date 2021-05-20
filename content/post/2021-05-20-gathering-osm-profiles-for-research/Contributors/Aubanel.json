@@ -1,0 +1,196 @@
+{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "Aubanel",
+    "uid": "13796",
+    "since": "2007-09-18",
+    "traces": "0",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "460918",
+    "f_tstamp": "2007-09-18",
+    "f_lon": "1.36848105",
+    "f_lat": "43.56171575",
+    "l_id": "94175845",
+    "l_tstamp": "2020-11-16",
+    "l_lon": "2.94582985",
+    "l_lat": "42.6752998"
+  },
+  "nodes": {
+    "c": "64823",
+    "m": "2102",
+    "d": "988",
+    "lm": "27613"
+  },
+  "ways": {
+    "c": "10240",
+    "m": "2654",
+    "d": "286",
+    "lm": "1699"
+  },
+  "waytags": {
+    "c_addr": "28",
+    "m_addr": "2547",
+    "c_building": "7142",
+    "m_building": "954",
+    "c_highway": "1925",
+    "m_highway": "1378",
+    "c_landuse": "59",
+    "m_landuse": "69",
+    "c_name": "701",
+    "m_name": "778",
+    "c_natural": "134",
+    "m_natural": "15",
+    "c_waterway": "174",
+    "m_waterway": "43"
+  },
+  "relations": {
+    "c": "9",
+    "m": "13",
+    "d": "0",
+    "lm": "2"
+  },
+  "changesets": {
+    "no": "370",
+    "changes": "81192",
+    "max_gap_days": "423",
+    "mapping_days_year": "2007=17;2008=47;2009=12;2010=3;2011=37;2012=7;2013=2;2014=10;2015=7;2016=2;2017=24;2018=4;2019=5;2020=9",
+    "info": "277;269;223;33.90;30.00;72;47;181;68;2",
+    "editors": "JOSM=5;Potlatch=109;iD=162;unknown=1",
+    "bboxs": "345;0.01;0.00",
+    "days": "9,59,71,94,72,53,12",
+    "hours": "1,1,5,2,2,3,14,5,14,45,39,17,28,45,35,36,25,9,6,4,7,15,9,3",
+    "mapping_days": "186",
+    "comment_wordcount": "bing (31), avenue (26), aubergenville (22), zone (17), marques (14)",
+    "hashtag_wordcount": ""
+  },
+  "countries": {
+    "countries": "France=fr=312=78182;China=cn=25=1530;Morocco=ma=7=1123;Switzerland=ch=3=238;India=in=3=70;unknown=unknown=13=21;United Kingdom=gb=1=15;Russia=ru=2=6;United States=us=1=3;Afghanistan=af=1=2;Belarus=by=1=1;Germany=de=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "name": "20",
+      "shop": "13",
+      "addr:": "16",
+      "sport": "1",
+      "amenity": "37",
+      "barrier": "55",
+      "highway": "21",
+      "leisure": "2",
+      "natural": "24",
+      "railway": "10",
+      "tourism": "3",
+      "historic": "2",
+      "man_made": "1",
+      "public_transport": "1"
+    },
+    "way_tags": {
+      "name": "170",
+      "shop": "51",
+      "addr:": "2451",
+      "name:": "12",
+      "place": "1",
+      "sport": "31",
+      "amenity": "104",
+      "barrier": "80",
+      "highway": "489",
+      "landuse": "42",
+      "leisure": "58",
+      "natural": "10",
+      "railway": "8",
+      "surface": "8",
+      "tourism": "3",
+      "boundary": "2",
+      "building": "898",
+      "historic": "1",
+      "man_made": "21",
+      "waterway": "9",
+      "building:": "5",
+      "public_transport": "3"
+    },
+    "relation_tags": {
+      "name": "1",
+      "amenity": "1",
+      "highway": "1"
+    }
+  },
+  "notes": {
+    "op": "0",
+    "co": "0",
+    "cl": "1",
+    "clco": "1"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "0",
+    "com_changesets": "0",
+    "num_comments": "0",
+    "dis_responses": "0"
+  },
+  "calendar": [
+    {
+      "date": "2020-06-01",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-13",
+      "count": "1"
+    },
+    {
+      "date": "2020-08-17",
+      "count": "6"
+    },
+    {
+      "date": "2020-08-27",
+      "count": "4"
+    },
+    {
+      "date": "2020-08-28",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-18",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-24",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-16",
+      "count": "2"
+    }
+  ],
+  "recent": [],
+  "ranks": [],
+  "qa": [
+    {
+      "tool": "iD editor",
+      "tmstmp": "2020-11-16",
+      "tag": "Resolved issues=4, Ignored warnings=5",
+      "trend": "up",
+      "trendamount": 4
+    },
+    {
+      "tool": "OSMI",
+      "tmstmp": "2020-11-16",
+      "tag": "routing=51, tagging=1",
+      "trend": "down",
+      "trendamount": -2
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2020-11-16",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Aubanel?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=5, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Aubanel?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=8, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Aubanel?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=99",
+      "trend": "up",
+      "trendamount": 5
+    }
+  ]
+}

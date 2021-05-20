@@ -1,0 +1,739 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "Arthtoach",
+    "uid": "3316592",
+    "since": "2015-10-17",
+    "traces": "30",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "34698186",
+    "f_tstamp": "2015-10-17",
+    "f_lon": "-1.6667168",
+    "f_lat": "53.83301715",
+    "l_id": "104781230",
+    "l_tstamp": "2021-05-16",
+    "l_lon": "-4.2609117",
+    "l_lat": "53.1185122"
+  },
+  "nodes": {
+    "c": "1195146",
+    "m": "92552",
+    "d": "16353",
+    "lm": "1236933"
+  },
+  "ways": {
+    "c": "268980",
+    "m": "59461",
+    "d": "1831",
+    "lm": "285539"
+  },
+  "waytags": {
+    "c_addr": "8574",
+    "m_addr": "12941",
+    "c_building": "248665",
+    "m_building": "33349",
+    "c_highway": "10941",
+    "m_highway": "22129",
+    "c_landuse": "6428",
+    "m_landuse": "6488",
+    "c_name": "2725",
+    "m_name": "17954",
+    "c_natural": "2166",
+    "m_natural": "1080",
+    "c_waterway": "115",
+    "m_waterway": "173"
+  },
+  "relations": {
+    "c": "439",
+    "m": "982",
+    "d": "148",
+    "lm": "464"
+  },
+  "changesets": {
+    "no": "9352",
+    "changes": "1629674",
+    "max_gap_days": "37",
+    "mapping_days_year": "2015=37;2016=161;2017=146;2018=166;2019=357;2020=135;2021=58",
+    "info": "9352;9351;1004;40.13;40.00;694;441;3985;4232;0",
+    "editors": "JOSM=8031;StreetComplete=522;Vespucci=2;iD=797",
+    "bboxs": "9284;0.02;0.00",
+    "days": "2168,1031,911,736,694,1128,2684",
+    "hours": "0,1,0,0,0,22,404,610,468,561,507,402,391,469,628,697,1022,1008,1167,720,212,42,21,0",
+    "mapping_days": "1060",
+    "comment_wordcount": "adding (7883), buildings (7674), detail (6847), area (6176), ls15 (788)",
+    "hashtag_wordcount": "#maproulette (22), #emergencyhospitalswithhelipad (21), #hotosm-project-6385 (7)"
+  },
+  "countries": {
+    "countries": "United Kingdom=gb=9029=1570623;Nigeria=ng=73=38901;United States=us=62=12045;South Sudan=ss=15=3180;United Arab Emirates=ae=23=1663;India=in=8=926;France=fr=10=504;Netherlands=nl=5=380;Turkey=tr=5=247;Finland=fi=4=209;Somalia=so=1=183;Poland=pl=18=123;Bangladesh=bd=1=69;Libya=ly=1=66;Russia=ru=7=66;Bosnia and Herzegovina=ba=9=55;China=cn=8=49;Ukraine=ua=7=43;Syria=sy=7=35;Brazil=br=2=34;Spain=es=9=33;Sweden=se=2=28;Greece=gr=6=28;Iraq=iq=6=21;Japan=jp=2=21;Ireland=ie=1=20;Algeria=dz=1=18;Argentina=ar=1=17;Belarus=by=1=15;Germany=de=4=10;Estonia=ee=1=9;Mongolia=mn=2=9;Macau=mo=1=8;Bulgaria=bg=1=7;Italy=it=2=6;Serbia=rs=1=5;Republic of Kosovo=xk=1=4;Tajikistan=tj=1=3;Turkmenistan=tm=1=3;Colombia=co=1=2;Myanmar (Burma)=mm=1=2;unknown=unknown=8=1;Portugal=pt=1=1;Switzerland=ch=1=1;Belgium=be=1=1"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "23",
+      "name": "137",
+      "shop": "29",
+      "addr:": "267",
+      "name:": "1",
+      "place": "6",
+      "power": "94",
+      "sport": "6",
+      "amenity": "116",
+      "barrier": "493",
+      "highway": "1781",
+      "leisure": "11",
+      "natural": "703",
+      "railway": "23",
+      "surface": "1",
+      "tourism": "16",
+      "building": "2",
+      "historic": "7",
+      "man_made": "5",
+      "waterway": "1",
+      "emergency": "4",
+      "public_transport": "15"
+    },
+    "way_tags": {
+      "ref": "1197",
+      "name": "8098",
+      "shop": "97",
+      "addr:": "14930",
+      "name:": "10",
+      "place": "8",
+      "power": "374",
+      "sport": "204",
+      "amenity": "843",
+      "barrier": "1869",
+      "highway": "17592",
+      "landuse": "7678",
+      "leisure": "609",
+      "natural": "1727",
+      "railway": "29",
+      "surface": "5788",
+      "tourism": "27",
+      "boundary": "12",
+      "building": "254183",
+      "historic": "16",
+      "man_made": "94",
+      "waterway": "200",
+      "building:": "3306",
+      "emergency": "4",
+      "public_transport": "1"
+    },
+    "relation_tags": {
+      "ref": "6",
+      "name": "35",
+      "shop": "2",
+      "addr:": "8",
+      "power": "9",
+      "route": "7",
+      "sport": "6",
+      "amenity": "17",
+      "highway": "1",
+      "landuse": "99",
+      "leisure": "12",
+      "natural": "53",
+      "surface": "10",
+      "building": "71",
+      "man_made": "1",
+      "waterway": "2",
+      "building:": "1",
+      "restriction": "181"
+    }
+  },
+  "notes": {
+    "op": "16",
+    "co": "0",
+    "cl": "6",
+    "clco": "6"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "12",
+    "com_changesets": "12",
+    "num_comments": "13",
+    "dis_responses": "3"
+  },
+  "calendar": [
+    {
+      "date": "2020-05-23",
+      "count": "13"
+    },
+    {
+      "date": "2020-05-24",
+      "count": "15"
+    },
+    {
+      "date": "2020-05-26",
+      "count": "7"
+    },
+    {
+      "date": "2020-05-30",
+      "count": "10"
+    },
+    {
+      "date": "2020-06-06",
+      "count": "12"
+    },
+    {
+      "date": "2020-06-13",
+      "count": "2"
+    },
+    {
+      "date": "2020-06-14",
+      "count": "13"
+    },
+    {
+      "date": "2020-07-01",
+      "count": "5"
+    },
+    {
+      "date": "2020-07-05",
+      "count": "5"
+    },
+    {
+      "date": "2020-07-18",
+      "count": "2"
+    },
+    {
+      "date": "2020-07-25",
+      "count": "14"
+    },
+    {
+      "date": "2020-07-26",
+      "count": "19"
+    },
+    {
+      "date": "2020-08-01",
+      "count": "3"
+    },
+    {
+      "date": "2020-08-02",
+      "count": "14"
+    },
+    {
+      "date": "2020-08-03",
+      "count": "18"
+    },
+    {
+      "date": "2020-08-04",
+      "count": "5"
+    },
+    {
+      "date": "2020-08-05",
+      "count": "11"
+    },
+    {
+      "date": "2020-08-06",
+      "count": "3"
+    },
+    {
+      "date": "2020-08-10",
+      "count": "30"
+    },
+    {
+      "date": "2020-08-11",
+      "count": "19"
+    },
+    {
+      "date": "2020-08-12",
+      "count": "21"
+    },
+    {
+      "date": "2020-08-14",
+      "count": "6"
+    },
+    {
+      "date": "2020-08-20",
+      "count": "3"
+    },
+    {
+      "date": "2020-08-23",
+      "count": "3"
+    },
+    {
+      "date": "2020-08-28",
+      "count": "7"
+    },
+    {
+      "date": "2020-08-29",
+      "count": "6"
+    },
+    {
+      "date": "2020-08-31",
+      "count": "12"
+    },
+    {
+      "date": "2020-09-01",
+      "count": "29"
+    },
+    {
+      "date": "2020-09-02",
+      "count": "18"
+    },
+    {
+      "date": "2020-09-03",
+      "count": "6"
+    },
+    {
+      "date": "2020-09-04",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-05",
+      "count": "6"
+    },
+    {
+      "date": "2020-09-06",
+      "count": "13"
+    },
+    {
+      "date": "2020-09-07",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-09",
+      "count": "3"
+    },
+    {
+      "date": "2020-09-12",
+      "count": "3"
+    },
+    {
+      "date": "2020-09-17",
+      "count": "1"
+    },
+    {
+      "date": "2020-09-20",
+      "count": "7"
+    },
+    {
+      "date": "2020-09-24",
+      "count": "2"
+    },
+    {
+      "date": "2020-09-27",
+      "count": "12"
+    },
+    {
+      "date": "2020-10-01",
+      "count": "6"
+    },
+    {
+      "date": "2020-10-02",
+      "count": "3"
+    },
+    {
+      "date": "2020-10-04",
+      "count": "5"
+    },
+    {
+      "date": "2020-10-05",
+      "count": "14"
+    },
+    {
+      "date": "2020-10-10",
+      "count": "8"
+    },
+    {
+      "date": "2020-10-17",
+      "count": "3"
+    },
+    {
+      "date": "2020-10-18",
+      "count": "3"
+    },
+    {
+      "date": "2020-10-26",
+      "count": "5"
+    },
+    {
+      "date": "2020-10-28",
+      "count": "17"
+    },
+    {
+      "date": "2020-10-29",
+      "count": "18"
+    },
+    {
+      "date": "2020-11-01",
+      "count": "5"
+    },
+    {
+      "date": "2020-11-02",
+      "count": "2"
+    },
+    {
+      "date": "2020-11-03",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-06",
+      "count": "5"
+    },
+    {
+      "date": "2020-11-07",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-08",
+      "count": "4"
+    },
+    {
+      "date": "2020-11-10",
+      "count": "5"
+    },
+    {
+      "date": "2020-11-14",
+      "count": "5"
+    },
+    {
+      "date": "2020-11-20",
+      "count": "7"
+    },
+    {
+      "date": "2020-11-22",
+      "count": "5"
+    },
+    {
+      "date": "2020-11-26",
+      "count": "1"
+    },
+    {
+      "date": "2020-11-28",
+      "count": "7"
+    },
+    {
+      "date": "2020-11-29",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-04",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-06",
+      "count": "4"
+    },
+    {
+      "date": "2020-12-12",
+      "count": "3"
+    },
+    {
+      "date": "2020-12-14",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-15",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-17",
+      "count": "8"
+    },
+    {
+      "date": "2020-12-18",
+      "count": "5"
+    },
+    {
+      "date": "2020-12-20",
+      "count": "4"
+    },
+    {
+      "date": "2020-12-21",
+      "count": "17"
+    },
+    {
+      "date": "2020-12-22",
+      "count": "2"
+    },
+    {
+      "date": "2020-12-23",
+      "count": "13"
+    },
+    {
+      "date": "2020-12-24",
+      "count": "17"
+    },
+    {
+      "date": "2020-12-26",
+      "count": "1"
+    },
+    {
+      "date": "2020-12-28",
+      "count": "9"
+    },
+    {
+      "date": "2020-12-29",
+      "count": "7"
+    },
+    {
+      "date": "2021-01-03",
+      "count": "19"
+    },
+    {
+      "date": "2021-01-05",
+      "count": "4"
+    },
+    {
+      "date": "2021-01-08",
+      "count": "16"
+    },
+    {
+      "date": "2021-01-09",
+      "count": "28"
+    },
+    {
+      "date": "2021-01-10",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-17",
+      "count": "5"
+    },
+    {
+      "date": "2021-01-23",
+      "count": "25"
+    },
+    {
+      "date": "2021-01-24",
+      "count": "11"
+    },
+    {
+      "date": "2021-01-26",
+      "count": "1"
+    },
+    {
+      "date": "2021-01-30",
+      "count": "21"
+    },
+    {
+      "date": "2021-01-31",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-01",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-06",
+      "count": "17"
+    },
+    {
+      "date": "2021-02-07",
+      "count": "6"
+    },
+    {
+      "date": "2021-02-13",
+      "count": "7"
+    },
+    {
+      "date": "2021-02-16",
+      "count": "6"
+    },
+    {
+      "date": "2021-02-17",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-19",
+      "count": "3"
+    },
+    {
+      "date": "2021-02-20",
+      "count": "3"
+    },
+    {
+      "date": "2021-02-21",
+      "count": "8"
+    },
+    {
+      "date": "2021-02-26",
+      "count": "4"
+    },
+    {
+      "date": "2021-02-27",
+      "count": "7"
+    },
+    {
+      "date": "2021-02-28",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-06",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-14",
+      "count": "3"
+    },
+    {
+      "date": "2021-03-20",
+      "count": "3"
+    },
+    {
+      "date": "2021-03-21",
+      "count": "4"
+    },
+    {
+      "date": "2021-03-25",
+      "count": "3"
+    },
+    {
+      "date": "2021-03-27",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-28",
+      "count": "2"
+    },
+    {
+      "date": "2021-03-29",
+      "count": "2"
+    },
+    {
+      "date": "2021-04-02",
+      "count": "14"
+    },
+    {
+      "date": "2021-04-03",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-07",
+      "count": "5"
+    },
+    {
+      "date": "2021-04-08",
+      "count": "19"
+    },
+    {
+      "date": "2021-04-09",
+      "count": "10"
+    },
+    {
+      "date": "2021-04-10",
+      "count": "13"
+    },
+    {
+      "date": "2021-04-11",
+      "count": "4"
+    },
+    {
+      "date": "2021-04-12",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-14",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-16",
+      "count": "5"
+    },
+    {
+      "date": "2021-04-18",
+      "count": "10"
+    },
+    {
+      "date": "2021-04-19",
+      "count": "3"
+    },
+    {
+      "date": "2021-04-23",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-24",
+      "count": "11"
+    },
+    {
+      "date": "2021-04-25",
+      "count": "17"
+    },
+    {
+      "date": "2021-04-27",
+      "count": "7"
+    },
+    {
+      "date": "2021-04-28",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-01",
+      "count": "5"
+    },
+    {
+      "date": "2021-05-02",
+      "count": "6"
+    },
+    {
+      "date": "2021-05-03",
+      "count": "2"
+    },
+    {
+      "date": "2021-05-07",
+      "count": "2"
+    },
+    {
+      "date": "2021-05-08",
+      "count": "4"
+    },
+    {
+      "date": "2021-05-09",
+      "count": "6"
+    },
+    {
+      "date": "2021-05-10",
+      "count": "5"
+    },
+    {
+      "date": "2021-05-12",
+      "count": "3"
+    },
+    {
+      "date": "2021-05-16",
+      "count": "3"
+    }
+  ],
+  "recent": [
+    {
+      "country": "United Kingdom",
+      "count": "176",
+      "code": "gb"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "United Kingdom",
+      "rank": "31",
+      "code": "gb"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-05-18",
+      "tag": "routing=874, tagging=54",
+      "trend": "down",
+      "trendamount": -1
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-05-18",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Arthtoach?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=127, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Arthtoach?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=234, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/Arthtoach?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=775",
+      "trend": "down",
+      "trendamount": -1
+    }
+  ]
+}

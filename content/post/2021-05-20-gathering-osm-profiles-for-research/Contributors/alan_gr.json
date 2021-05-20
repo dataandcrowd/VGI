@@ -1,0 +1,271 @@
+﻿{
+  "publicprofile": "false",
+  "contributor": {
+    "name": "alan_gr",
+    "uid": "5307206",
+    "since": "2017-02-12",
+    "traces": "3",
+    "blocks": "0",
+    "blocks_active": "0",
+    "img": "",
+    "roles": "",
+    "blocks_issued": "0",
+    "blocks_active_issued": "0",
+    "organised_editing": ""
+  },
+  "node": {
+    "f_id": "46568494",
+    "f_tstamp": "2017-03-04",
+    "f_lon": "-4.407548",
+    "f_lat": "36.72019135",
+    "l_id": "104064982",
+    "l_tstamp": "2021-05-03",
+    "l_lon": "-4.39678055",
+    "l_lat": "36.74782335"
+  },
+  "nodes": {
+    "c": "18415",
+    "m": "1867",
+    "d": "429",
+    "lm": "4735"
+  },
+  "ways": {
+    "c": "2148",
+    "m": "1595",
+    "d": "34",
+    "lm": "990"
+  },
+  "waytags": {
+    "c_addr": "1341",
+    "m_addr": "369",
+    "c_building": "1437",
+    "m_building": "243",
+    "c_highway": "669",
+    "m_highway": "1482",
+    "c_landuse": "16",
+    "m_landuse": "77",
+    "c_name": "843",
+    "m_name": "1706",
+    "c_natural": "10",
+    "m_natural": "33",
+    "c_waterway": "13",
+    "m_waterway": "26"
+  },
+  "relations": {
+    "c": "78",
+    "m": "371",
+    "d": "2",
+    "lm": "22"
+  },
+  "changesets": {
+    "no": "686",
+    "changes": "25004",
+    "max_gap_days": "321",
+    "mapping_days_year": "2017=100;2018=40;2019=7;2020=11;2021=19",
+    "info": "686;686;496;49.44;40.50;298;163;184;41;0",
+    "editors": "JOSM=429;StreetComplete=162;iD=95",
+    "bboxs": "621;0.20;0.00",
+    "days": "96,140,104,79,110,74,83",
+    "hours": "1,0,0,0,0,0,3,47,45,24,33,60,46,10,28,43,63,80,73,44,53,29,3,1",
+    "mapping_days": "177",
+    "comment_wordcount": "from (63), buildings (57), catastro (54), trace (44), steps (40)",
+    "hashtag_wordcount": "#spanishcadastrebuildingsimport (5)"
+  },
+  "countries": {
+    "countries": "Spain=es=624=23603;Ireland=ie=60=921;unknown=unknown=2=480"
+  },
+  "lastmodifier": {
+    "node_tags": {
+      "ref": "25",
+      "name": "206",
+      "shop": "81",
+      "addr:": "592",
+      "place": "1",
+      "sport": "1",
+      "amenity": "113",
+      "barrier": "28",
+      "highway": "122",
+      "leisure": "15",
+      "natural": "7",
+      "tourism": "108",
+      "building": "2",
+      "historic": "10",
+      "man_made": "5",
+      "public_transport": "34"
+    },
+    "way_tags": {
+      "ref": "26",
+      "name": "287",
+      "shop": "1",
+      "addr:": "12",
+      "name:": "33",
+      "place": "1",
+      "sport": "10",
+      "amenity": "18",
+      "barrier": "25",
+      "highway": "721",
+      "landuse": "10",
+      "leisure": "39",
+      "natural": "18",
+      "surface": "260",
+      "tourism": "2",
+      "boundary": "12",
+      "building": "85",
+      "historic": "1",
+      "man_made": "1",
+      "waterway": "22",
+      "building:": "106"
+    },
+    "relation_tags": {
+      "ref": "7",
+      "name": "18",
+      "name:": "6",
+      "place": "5",
+      "route": "11",
+      "boundary": "7",
+      "building": "3",
+      "building:": "3"
+    }
+  },
+  "notes": {
+    "op": "7",
+    "co": "10",
+    "cl": "23",
+    "clco": "21"
+  },
+  "accounts": [],
+  "discussion": {
+    "dis_changesets": "18",
+    "com_changesets": "25",
+    "num_comments": "30",
+    "dis_responses": "7"
+  },
+  "calendar": [
+    {
+      "date": "2020-05-17",
+      "count": "1"
+    },
+    {
+      "date": "2020-05-21",
+      "count": "1"
+    },
+    {
+      "date": "2020-05-22",
+      "count": "2"
+    },
+    {
+      "date": "2020-06-29",
+      "count": "2"
+    },
+    {
+      "date": "2020-08-05",
+      "count": "1"
+    },
+    {
+      "date": "2021-02-28",
+      "count": "5"
+    },
+    {
+      "date": "2021-03-01",
+      "count": "5"
+    },
+    {
+      "date": "2021-03-02",
+      "count": "13"
+    },
+    {
+      "date": "2021-03-03",
+      "count": "12"
+    },
+    {
+      "date": "2021-03-04",
+      "count": "13"
+    },
+    {
+      "date": "2021-03-06",
+      "count": "10"
+    },
+    {
+      "date": "2021-03-07",
+      "count": "14"
+    },
+    {
+      "date": "2021-03-08",
+      "count": "14"
+    },
+    {
+      "date": "2021-03-12",
+      "count": "11"
+    },
+    {
+      "date": "2021-03-17",
+      "count": "1"
+    },
+    {
+      "date": "2021-03-28",
+      "count": "18"
+    },
+    {
+      "date": "2021-04-03",
+      "count": "14"
+    },
+    {
+      "date": "2021-04-05",
+      "count": "8"
+    },
+    {
+      "date": "2021-04-06",
+      "count": "1"
+    },
+    {
+      "date": "2021-04-10",
+      "count": "5"
+    },
+    {
+      "date": "2021-04-12",
+      "count": "2"
+    },
+    {
+      "date": "2021-04-13",
+      "count": "9"
+    },
+    {
+      "date": "2021-05-01",
+      "count": "1"
+    },
+    {
+      "date": "2021-05-03",
+      "count": "11"
+    }
+  ],
+  "recent": [
+    {
+      "country": "Spain",
+      "count": "70",
+      "code": "es"
+    }
+  ],
+  "ranks": [
+    {
+      "country": "Spain",
+      "rank": "260",
+      "code": "es"
+    }
+  ],
+  "qa": [
+    {
+      "tool": "OSMI",
+      "tmstmp": "2021-05-04",
+      "tag": "routing=20, tagging=5",
+      "trend": "down",
+      "trendamount": -4
+    },
+    {
+      "tool": "Osmose",
+      "tmstmp": "2021-05-04",
+      "tag": "<a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alan_gr?level=1\" title=\"Severity level 1: Major issue\">Level 1</a>=2, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alan_gr?level=2\" title=\"Severity level 2: Intermediate issue\">Level 2</a>=25, <a style=\"color:black;\" target=\"_blank\" href=\"https://osmose.openstreetmap.fr/en/byuser/alan_gr?level=3\" title=\"Severity level 3: Minor issue\">Level 3</a>=62",
+      "trend": "down",
+      "trendamount": -3
+    }
+  ]
+}
